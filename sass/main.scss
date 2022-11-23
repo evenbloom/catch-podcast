@@ -1,0 +1,16 @@
+//main sass file
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/nav';
+
+@import 'pages/about';
+@import 'pages/episodes';
+@import 'pages/home';
+
+body{
+    background-color: red;
+}
+
