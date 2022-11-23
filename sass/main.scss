@@ -1,16 +1,16 @@
 //main sass file
-@import 'base/reset';
-@import 'base/typography';
+@forward 'base/reset';
+@forward 'base/typography';
 
-@import 'layout/footer';
-@import 'layout/header';
-@import 'layout/nav';
+@forward 'layout/footer';
+@forward 'layout/header';
+@forward 'layout/nav';
 
-@import 'pages/about';
-@import 'pages/episodes';
-@import 'pages/home';
+@forward 'pages/about';
+@forward 'pages/episodes';
+@forward 'pages/home';
 
 body{
-    background-color: red !important;
+    background-color: purple !important;
 }
 
