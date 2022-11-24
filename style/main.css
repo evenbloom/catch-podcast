@@ -118,4 +118,8 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex !important;
 }
 
+.max-width {
+  max-width: 1280px !important;
+}
+
 /*# sourceMappingURL=main.css.map */
