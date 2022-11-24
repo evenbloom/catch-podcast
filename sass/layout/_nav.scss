@@ -6,3 +6,11 @@
     margin-right: 25px !important;
     margin-left: -10px !important;
 }
+
+.theme-blackout .dark-mode-icon{
+    display: none !important;
+}
+
+.theme-blackout .light-mode-icon{
+    display: flex !important;
+}
