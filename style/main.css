@@ -102,6 +102,14 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 100% !important;
 }
 
+.super-navbar {
+  width: calc(100% - 193px) !important;
+  height: 65px !important;
+  margin: 20px auto !important;
+  padding: 0px 60px !important;
+  transition: box-shadow 0.2s ease-in-out !important;
+}
+
 .theme-switch {
   width: 22px !important;
   height: 22px !important;
