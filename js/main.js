@@ -4,14 +4,14 @@ var darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
   , isThemeDark = ()=>"dark" === getCurrentTheme()
   , isThemeLight = ()=>"light" === getCurrentTheme();
 function setLightMode() {
-    document.querySelector("html").classList.add("light-theme"),
-    document.querySelector("html").classList.remove("dark-theme"),
+    document.querySelector("html").classList.add("theme-default"),
+    document.querySelector("html").classList.remove("theme-blackout"),
     saveThemeInLocalStorage("light"),
     console.info("Light mode activated.")
 }
 function setDarkMode() {
-    document.querySelector("html").classList.add("dark-theme"),
-    document.querySelector("html").classList.remove("light-theme"),
+    document.querySelector("html").classList.add("theme-blackout"),
+    document.querySelector("html").classList.remove("theme-default"),
     saveThemeInLocalStorage("dark"),
     console.info("Dark mode activated.")
 }
