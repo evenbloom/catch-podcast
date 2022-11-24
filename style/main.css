@@ -102,6 +102,10 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 100% !important;
 }
 
+.notion-header__title {
+  display: none !important;
+}
+
 .super-navbar {
   width: calc(100% - 193px) !important;
   height: 65px !important;
