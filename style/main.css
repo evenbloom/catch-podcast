@@ -26,10 +26,10 @@
 /*
   2. Remove default margin
 */
+/*
 * {
   margin: 0 !important;
-}
-
+}*/
 /*
   3. Allow percentage-based heights in the application
 */
@@ -128,6 +128,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .theme-blackout .light-mode-icon {
   display: flex !important;
+}
+
+.super-content.max-width {
+  margin: auto !important;
 }
 
 .max-width {
