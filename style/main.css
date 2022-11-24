@@ -149,4 +149,12 @@ p, h1, h2, h3, h4, h5, h6 {
   max-width: 1280px !important;
 }
 
+.notion-collection-table {
+  border-top: none !important;
+}
+
+.notion-collection-table th {
+  border: none !important;
+}
+
 /*# sourceMappingURL=main.css.map */
