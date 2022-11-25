@@ -188,6 +188,11 @@ h3.notion-heading {
   border: none !important;
 }
 
+.notion-collection-table td {
+  border: none !important;
+  display: table !important;
+}
+
 .notion-collection-table__head-cell {
   display: none !important;
 }
