@@ -79,12 +79,12 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate !important;
 }
 
-body {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Lexend", sans-serif !important;
 }
 
 h1.notion-heading {
-  font-size: 8rem !important;
+  font-size: 5rem !important;
   font-weight: 500 !important;
 }
 
