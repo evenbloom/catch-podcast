@@ -184,6 +184,11 @@ h3.notion-heading {
   border-top: none !important;
 }
 
+.notion-collection-table__wrapper {
+  max-width: 500px !important;
+  margin: 0 auto !important;
+}
+
 .notion-collection-table th {
   border: none !important;
 }
