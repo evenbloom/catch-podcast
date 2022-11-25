@@ -1,1 +1,11 @@
 //typography rules
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Lexend', sans-serif !important;
+}
+
+h1.notion-heading{
+    font-size: 8rem !important;
+    font-weight: 500 !important;
+}
