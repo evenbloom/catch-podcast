@@ -16,6 +16,14 @@
 .notion-collection-table__wrapper{
     max-width: 500px !important;
     margin: 0 auto !important;
+    overflow: unset !important;
+}
+
+.notion-collection-table tr{
+    display: table-cell !important;
+    border-collapse: inherit !important;
+    border: 1px solid white !important;
+    border-spacing: 10px !important;
 }
 
 .notion-collection-table th{
