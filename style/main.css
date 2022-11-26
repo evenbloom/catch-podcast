@@ -199,8 +199,6 @@ tbody.notion-collection-table__body {
 }
 
 .notion-collection-table__wrapper {
-  max-width: 500px !important;
-  margin: 0 auto !important;
   overflow: unset !important;
 }
 
