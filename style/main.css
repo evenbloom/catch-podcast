@@ -180,6 +180,10 @@ h3.notion-heading {
   max-width: 1280px !important;
 }
 
+.notion-collection__header {
+  margin: 0 auto !important;
+}
+
 thead.notion-collection-table__head {
   border: none !important;
 }
