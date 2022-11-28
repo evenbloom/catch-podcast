@@ -78,17 +78,10 @@ tbody.notion-collection-table__body{
     overflow: inherit !important;
 }
 
-.notion-collection-table__cell .file{
-    width: 150px !important;
-    height: 150px !important;
-    
-    img{
-        border-radius: 5px !important;
-    }
-}
-
 .notion-property.notion-property__file.property-63756178 a div{
     width: 150px !important;
     height: 150px !important;
-    border-radius: 5px !important;
+    img{
+        border-radius: 5px !important;
+    }
 }
