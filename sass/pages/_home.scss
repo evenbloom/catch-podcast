@@ -43,7 +43,7 @@ tbody.notion-collection-table__body{
     width: 20% !important;
     padding: 2rem !important;
     border-collapse: inherit !important;
-    box-shadow: 1px 0 0 0 var(--color-border-default) !important;
+    box-shadow: 0 0 0 1px var(--color-border-default) !important;
 }
 
 .notion-collection-table th{
