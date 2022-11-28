@@ -69,3 +69,12 @@ tbody.notion-collection-table__body{
     white-space: inherit !important;
     overflow: inherit !important;
 }
+
+.notion-collection-table__cell .file{
+    width: 150px !important;
+    height: 150px !important;
+    
+    img{
+        border-radius: 5px !important;
+    }
+}
