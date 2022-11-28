@@ -226,6 +226,12 @@ tbody.notion-collection-table__body {
   display: flex !important;
 }
 
+.notion-collection-table td,
+.notion-collection-table th {
+  height: auto !important;
+  overflow: unset !important;
+}
+
 .notion-collection-table__head-cell {
   display: none !important;
 }
