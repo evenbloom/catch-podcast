@@ -249,4 +249,9 @@ tbody.notion-collection-table__body {
   border-radius: 5px !important;
 }
 
+.notion-property .notion-property__file a > div {
+  width: 150px !important;
+  height: 150px !important;
+}
+
 /*# sourceMappingURL=main.css.map */
