@@ -186,6 +186,12 @@ h3.notion-heading {
 }
 
 .notion-collection__header {
+  text-transform: uppercase !important;
+  margin-top: 3rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.notion-collection__header {
   margin: 0 auto !important;
 }
 
