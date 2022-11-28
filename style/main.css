@@ -150,6 +150,7 @@ h3.notion-heading {
   padding: 0px 60px !important;
   transition: box-shadow 0.2s ease-in-out !important;
   background: var(--color-bg-transparent-default) !important;
+  color: var(--color-text-default) !important;
 }
 
 .theme-switch {
