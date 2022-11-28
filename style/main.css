@@ -227,10 +227,12 @@ tbody.notion-collection-table__body {
 .notion-collection-table td {
   border: none !important;
   display: flex !important;
+  text-align: center !important;
 }
 
 .notion-collection-table td,
 .notion-collection-table th {
+  justify-content: center !important;
   height: auto !important;
   overflow: unset !important;
 }
