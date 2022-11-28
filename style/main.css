@@ -223,7 +223,7 @@ tbody.notion-collection-table__body {
 
 .notion-collection-table td {
   border: none !important;
-  display: table !important;
+  display: flex !important;
 }
 
 .notion-collection-table__head-cell {
