@@ -189,6 +189,7 @@ h3.notion-heading {
   justify-content: center !important;
   margin-top: 3rem !important;
   margin-bottom: 2rem !important;
+  padding: 2px;
 }
 
 .notion-collection__header {
