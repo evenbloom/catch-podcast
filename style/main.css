@@ -185,14 +185,14 @@ h3.notion-heading {
   max-width: 1280px !important;
 }
 
-.notion-collection__header {
-  text-transform: uppercase !important;
+.notion-collection-table__header-wrapper {
+  justify-content: center !important;
   margin-top: 3rem !important;
   margin-bottom: 2rem !important;
 }
 
 .notion-collection__header {
-  margin: 0 auto !important;
+  text-transform: uppercase !important;
 }
 
 thead.notion-collection-table__head {
