@@ -260,4 +260,24 @@ tbody.notion-collection-table__body {
   border-radius: 5px !important;
 }
 
+.notion-collection-card {
+  display: flex !important;
+  border: 1px solid var(--color-border-default) !important;
+  padding: 2rem !important;
+}
+
+.notion-collection-card__cover {
+  border-radius: 5px !important;
+  flex: 0 0 225px !important;
+  min-height: 220px !important;
+  height: 220px !important;
+  margin: 0 40px 0 0 !important;
+  min-width: 0px !important;
+}
+
+.notion-collection-card__content.no-title {
+  display: none !important;
+  flex: 1 1 0% !important;
+}
+
 /*# sourceMappingURL=main.css.map */
