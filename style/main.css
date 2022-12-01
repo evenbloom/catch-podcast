@@ -282,6 +282,7 @@ tbody.notion-collection-table__body {
 }
 
 .notion-collection-card__content {
+  width: 0px !important;
   flex: 1 1 0% !important;
 }
 
@@ -293,6 +294,11 @@ tbody.notion-collection-table__body {
 .notion-property__date {
   font-size: 12px !important;
   color: orange !important;
+}
+
+.gallery .notion-collection-card__property .notion-semantic-string {
+  overflow: unset !important;
+  white-space: inherit !important;
 }
 
 /*# sourceMappingURL=main.css.map */
