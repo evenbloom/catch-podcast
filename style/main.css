@@ -185,11 +185,10 @@ h3.notion-heading {
   max-width: 1280px !important;
 }
 
-.notion-collection-table__header-wrapper {
+.notion-collection__header-wrapper {
   justify-content: center !important;
   margin-top: 3rem !important;
   margin-bottom: 2rem !important;
-  padding: 2px;
 }
 
 .notion-collection__header {
@@ -224,7 +223,7 @@ tbody.notion-collection-table__body {
   width: 20% !important;
   padding: 2rem !important;
   border-collapse: inherit !important;
-  box-shadow: 1px solid var(--color-border-default) !important;
+  border: 1px solid var(--color-border-default) !important;
 }
 
 .notion-collection-table th {
