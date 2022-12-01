@@ -121,7 +121,7 @@ tbody.notion-collection-table__body{
 .notion-property__date{
     font-size: 12px !important;
     span{
-        color: orange !important;
+        color: var(--color-date-default) !important;
     }
 }
 
