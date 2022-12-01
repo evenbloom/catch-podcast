@@ -293,6 +293,8 @@ tbody.notion-collection-table__body {
 
 .notion-property__date {
   font-size: 12px !important;
+}
+.notion-property__date span {
   color: orange !important;
 }
 

@@ -120,7 +120,9 @@ tbody.notion-collection-table__body{
 
 .notion-property__date{
     font-size: 12px !important;
-    color: orange !important;
+    span{
+        color: orange !important;
+    }
 }
 
 .gallery .notion-collection-card__property .notion-semantic-string{
