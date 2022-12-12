@@ -88,6 +88,10 @@ tbody.notion-collection-table__body{
 }
 
 //Medium gallery
+.notion-collection-gallery{
+    gap: 3rem !important;
+}
+
 .notion-collection-gallery.medium{
     display: flex !important;
     flex-direction: column !important;
