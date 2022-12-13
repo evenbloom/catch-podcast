@@ -163,6 +163,10 @@ h3.notion-heading {
   margin-left: -10px !important;
 }
 
+.theme-default .dark-mode-icon svg, .theme-default .super-navbar__button svg {
+  fill: var(--color-text-default) !important;
+}
+
 .theme-blackout .dark-mode-icon {
   display: none !important;
 }
@@ -324,6 +328,4 @@ tbody.notion-collection-table__body {
   border: none !important;
   opacity: 0.5 !important;
   /* color: var(--color-date-default) !important; */
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

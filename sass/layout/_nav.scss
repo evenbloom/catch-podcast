@@ -17,6 +17,10 @@
     margin-left: -10px !important;
 }
 
+.theme-default .dark-mode-icon svg, .theme-default .super-navbar__button svg{
+    fill: var(--color-text-default) !important;
+}
+
 .theme-blackout .dark-mode-icon{
     display: none !important;
 }
