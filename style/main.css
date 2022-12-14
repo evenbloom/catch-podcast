@@ -5,7 +5,7 @@
   --color-border-default: hsla(0,0%,100%,.1) !important;
   --color-bg-transparent-default: rgb(255, 255, 255, 0) !important;
   --color-text-default: rgb(237, 237, 237) !important;
-  --color-date-default: rgb(160, 160, 160) !important;
+  --color-date-default: rgb(152, 144, 144) !important;
   --color-link-default: rgb(208, 106, 78) !important;
   --color-hover-default: rgb(142, 230, 192) !important;
   --color-cta-background: rgb(237, 237, 237) !important;
@@ -325,6 +325,8 @@ tbody.notion-collection-table__body {
 
 .notion-property__date {
   font-size: 12px !important;
+}
+.notion-property__date span {
   color: var(--color-date-default) !important;
 }
 
