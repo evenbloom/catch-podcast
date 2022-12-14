@@ -17,12 +17,32 @@
     margin-left: -10px !important;
 }
 
+.dark-mode-icon svg, .light-mode-icon svg{
+    height: 22px !important;
+    width: 22px !important;
+}
+
+//theme blackout
+
+.theme-blackout .light-mode-icon svg, .theme-blackout .super-navbar__button svg{
+    fill: var(--color-text-default) !important;
+}
+
+
 .theme-blackout .dark-mode-icon{
     display: none !important;
 }
 
 .theme-blackout .light-mode-icon{
     display: flex !important;
+}
+
+
+
+//theme default
+
+.theme-default .dark-mode-icon svg, .theme-default .super-navbar__button svg{
+    fill: var(--color-text-default) !important;
 }
 
 .theme-default .dark-mode-icon{

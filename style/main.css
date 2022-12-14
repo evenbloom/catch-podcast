@@ -51,7 +51,10 @@ html, body {
 */
 body {
   line-height: 1.5 !important;
+  position: relative !important;
   -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
 }
 
 /*
@@ -163,12 +166,25 @@ h3.notion-heading {
   margin-left: -10px !important;
 }
 
+.dark-mode-icon svg, .light-mode-icon svg {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+.theme-blackout .light-mode-icon svg, .theme-blackout .super-navbar__button svg {
+  fill: var(--color-text-default) !important;
+}
+
 .theme-blackout .dark-mode-icon {
   display: none !important;
 }
 
 .theme-blackout .light-mode-icon {
   display: flex !important;
+}
+
+.theme-default .dark-mode-icon svg, .theme-default .super-navbar__button svg {
+  fill: var(--color-text-default) !important;
 }
 
 .theme-default .dark-mode-icon {
@@ -324,6 +340,4 @@ tbody.notion-collection-table__body {
   border: none !important;
   opacity: 0.5 !important;
   /* color: var(--color-date-default) !important; */
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
