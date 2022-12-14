@@ -1,6 +1,5 @@
 .notion-toggle{
     border: 1px solid var(--color-border-default) !important;
-    width: 60% !important;
     text-align: left !important;
     margin: -0.5px !important;
     position: relative !important;
@@ -8,6 +7,22 @@
     :hover{
         background: var(--color-border-default) !important;
     }
+}
+
+.notion-toggle__summary:before{
+    position: absolute !important;
+    right: 20px !important;
+    opacity: 0.4 !important;
+    content: "+" !important;
+}
+
+.notion-toggle[open]>summary:before{
+    content: "-" !important;
+}
+
+.notion-toggle__summary:hover:before{
+    background: none !important;
+    opacity: 1 !important;
 }
 
 .notion-toggle__summary{
