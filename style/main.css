@@ -223,17 +223,6 @@ h3.notion-heading {
   text-transform: uppercase !important;
 }
 
-.notion-root .notion-text .notion-text__content .notion-semantic-string span strong {
-  background: var(--color-cta-background) !important;
-  color: var(--color-cta-text) !important;
-  transition: background 0.2s ease-in-out !important;
-  opacity: 1 !important;
-  border-radius: 5px !important;
-  padding: 10px 5px !important;
-  margin: 20px 0px !important;
-  font-weight: 600 !important;
-}
-
 thead.notion-collection-table__head {
   border: none !important;
 }
