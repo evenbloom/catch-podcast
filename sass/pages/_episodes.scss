@@ -4,6 +4,10 @@
     text-align: left !important;
     margin: -0.5px !important;
     position: relative !important;
+
+    :hover{
+        background: var(--color-border-default) !important;
+    }
 }
 
 .notion-toggle__summary{

@@ -212,6 +212,9 @@ h3.notion-heading {
   margin: -0.5px !important;
   position: relative !important;
 }
+.notion-toggle :hover {
+  background: var(--color-border-default) !important;
+}
 
 .notion-toggle__summary {
   padding: 25px 70px 25px 0px !important;
