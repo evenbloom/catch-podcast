@@ -10,6 +10,7 @@
   --color-hover-default: linear-gradient(to bottom, rgba(32, 32, 32, 0), rgb(208 106 78 / 10%) 98%) !important;
   --color-cta-background: rgb(237, 237, 237) !important;
   --color-cta-text: rgb(32, 32, 32) !important;
+  --color-boxshadow-default: rgb(208 106 78 / 16%) 0px 10px 36px 0px, rgb(208 106 78 / 6%) 0px 0px 0px 1px !important;
 }
 
 .theme-default body {
@@ -23,6 +24,7 @@
   --color-hover-default: linear-gradient(to bottom, rgba(237, 237, 237, 0), rgb(208 106 78 / 10%) 98%)!important;
   --color-cta-background: rgb(32, 32, 32) !important;
   --color-cta-text: rgb(237, 237, 237) !important;
+  --color-boxshadow-default: rgb(208 106 78 / 16%) 0px 10px 36px 0px, rgb(208 106 78 / 6%) 0px 0px 0px 1px !important;
 }
 
 /*
@@ -346,6 +348,7 @@ tbody.notion-collection-table__body {
   border: 1px solid var(--color-border-default) !important;
   padding: 2rem !important;
   background: none !important;
+  box-shadow: var(--color-boxshadow-default) !important;
 }
 
 .notion-collection-card__cover {
