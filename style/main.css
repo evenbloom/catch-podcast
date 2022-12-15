@@ -215,6 +215,10 @@ h3.notion-heading {
   background: var(--color-border-default) !important;
 }
 
+.notion-toggle-heading-3 > .notion-toggle__summary {
+  margin-top: 0px !important;
+}
+
 .notion-toggle__summary:before {
   position: absolute !important;
   right: 20px !important;
