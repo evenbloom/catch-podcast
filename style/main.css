@@ -7,7 +7,7 @@
   --color-text-default: rgb(237, 237, 237) !important;
   --color-date-default: rgb(152, 144, 144) !important;
   --color-link-default: rgb(208, 106, 78) !important;
-  --color-hover-default: rgb(142, 230, 192) !important;
+  --color-hover-default: linear-gradient(to bottom, rgba(32, 32, 32, 0), rgb(208 106 78 / 10%) 98%) !important;
   --color-cta-background: rgb(237, 237, 237) !important;
   --color-cta-text: rgb(32, 32, 32) !important;
 }
@@ -211,9 +211,6 @@ h3.notion-heading {
   margin: -0.5px !important;
   position: relative !important;
 }
-.notion-toggle :hover {
-  background: var(--color-border-default) !important;
-}
 
 .notion-toggle-heading-3 > .notion-toggle__summary {
   margin-top: 0px !important;
@@ -249,6 +246,9 @@ h3.notion-heading {
 
 .notion-toggle__content {
   padding: 0px 30px 20px 30px !important;
+}
+.notion-toggle__content :hover {
+  background: var(--color-hover-default) !important;
 }
 
 .super-content.max-width {

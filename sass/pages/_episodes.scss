@@ -3,10 +3,6 @@
     text-align: left !important;
     margin: -0.5px !important;
     position: relative !important;
-
-    :hover{
-        background: var(--color-border-default) !important;
-    }
 }
 
 .notion-toggle-heading-3 > .notion-toggle__summary{
@@ -43,4 +39,8 @@
 
 .notion-toggle__content{
     padding: 0px 30px 20px 30px !important;
+    
+    :hover{
+        background: var(--color-hover-default) !important;
+    }
 }
