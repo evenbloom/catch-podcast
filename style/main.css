@@ -246,8 +246,6 @@ h3.notion-heading {
 
 .notion-toggle__content {
   padding: 0px 30px 20px 30px !important;
-}
-.notion-toggle__content :hover {
   background: var(--color-hover-default) !important;
 }
 
