@@ -219,14 +219,14 @@ h3.notion-heading {
   margin-top: 0px !important;
 }
 
-.notion-toggle__summary:before {
+.notion-toggle__summary::before {
   position: absolute !important;
   right: 20px !important;
   opacity: 0.4 !important;
   content: "+" !important;
 }
 
-.notion-toggle[open] > summary:before {
+.notion-toggle[open] > summary::before {
   content: "-" !important;
 }
 
