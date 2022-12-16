@@ -11,7 +11,7 @@
   --color-hover-default: linear-gradient(to bottom, rgba(32, 32, 32, 0), rgb(208 106 78 / 10%) 98%) !important;
   --color-cta-background: rgb(237, 237, 237) !important;
   --color-cta-text: rgb(32, 32, 32) !important;
-  --color-boxshadow-default: rgb(159 85 34 / 8%) 0 10px 15px -3px, rgb(255 255 255 / 5%) 0 4px 6px -2px !important;
+  --color-boxshadow-default: rgb(38 44 59 / 2%) 0px 1.24527px 2.21381px 0px, rgb(86 80 167 / 3%) 0px 2.99255px 5.32008px 0px, rgb(38 44 59 / 4%) 0px 5.6347px 10.0172px 0px, rgb(228 221 59 / 4%) 0px 10.0513px 17.869px 0px, rgb(38 44 59 / 5%) 0px 18.7999px 33.4221px 0px, rgb(208 106 78 / 7%) 0px 45px 80px 0px !important;
 }
 
 .theme-default body {
