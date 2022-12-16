@@ -104,7 +104,13 @@ tbody.notion-collection-table__body{
     padding: 2rem !important;
     background: none !important;
     box-shadow: var(--color-boxshadow-default) !important;
+
+    :hover{
+        box-shadow: var(--color-hovershadow-default) !important;
+        transition: box-shadow .2s ease-in-out !important;
+    }
 }
+
 
 .notion-collection-card__cover{
     border-radius: 5px !important;
