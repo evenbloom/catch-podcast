@@ -170,9 +170,11 @@ tbody.notion-collection-table__body{
     opacity: .5 !important;
 }
 
-/* html ::-webkit-scrollbar{
-
-} */
+html ::-webkit-scrollbar{
+    width: 10px !important;
+    background: var(--color-bg-default);
+    border: none !important;
+} 
 
 
 //media queries
