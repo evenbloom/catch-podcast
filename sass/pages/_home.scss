@@ -170,11 +170,22 @@ tbody.notion-collection-table__body{
     opacity: .5 !important;
 }
 
-html ::-webkit-scrollbar{
+html::-webkit-scrollbar{
     width: 10px !important;
-    background: var(--color-bg-default);
+    background-color: var(--color-bg-default) !important;
     border: none !important;
+
+    &-track{
+        background-color: transparent !important;
+        border-radius: 10px !important;
+    }
+
+    &-thumb{
+        background-color: rgb(65, 65, 65) !important;
+        border-radius: 10px !important;
+    }
 } 
+
 
 
 //media queries
