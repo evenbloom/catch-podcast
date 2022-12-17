@@ -424,6 +424,14 @@ tbody.notion-collection-table__body {
   margin: 16px 0 0 !important;
 }
 
+.notion-collection-gallery.small {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+.notion-collection-gallery.small .notion-collection-card {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
 .notion-semantic-string .link {
   border: none !important;
   /* opacity: .5 !important; */
