@@ -428,6 +428,10 @@ tbody.notion-collection-table__body {
   opacity: 1 !important;
 }
 
+::selection {
+  background: var(--color-hovershadow-default) !important;
+}
+
 @media (max-width: 600px) {
   tbody.notion-collection-table__body {
     flex-direction: column !important;
