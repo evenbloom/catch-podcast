@@ -210,10 +210,9 @@ h3.notion-heading {
   display: none !important;
 }
 
-.notion-dropdown__menu-header, .notion-dropdown__option-icon, .notion-dropdown__button svg:first-of-type {
-  /*     display: none !important; */
-}
-
+/* .notion-dropdown__menu-header, .notion-dropdown__option-icon, .notion-dropdown__button svg:first-of-type {
+        display: none !important; 
+} */
 .notion-dropdown {
   width: 100% !important;
 }
@@ -432,6 +431,9 @@ tbody.notion-collection-table__body {
   background: var(--color-hovershadow-default) !important;
 }
 
+/* html ::-webkit-scrollbar{
+
+} */
 @media (max-width: 600px) {
   tbody.notion-collection-table__body {
     flex-direction: column !important;
