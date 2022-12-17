@@ -290,6 +290,10 @@ h3.notion-heading {
   text-transform: uppercase !important;
 }
 
+.notion-image.page-width img {
+  border-radius: 5px !important;
+}
+
 thead.notion-collection-table__head {
   border: none !important;
 }
