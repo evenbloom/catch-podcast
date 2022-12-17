@@ -166,7 +166,8 @@ tbody.notion-collection-table__body{
 }
 
 ::selection{
-    background: var(--color-hovershadow-default) !important;
+    background: var(--color-link-default) !important;
+    opacity: .5 !important;
 }
 
 /* html ::-webkit-scrollbar{
