@@ -170,7 +170,7 @@ tbody.notion-collection-table__body{
     opacity: .5 !important;
 }
 
-html::-webkit-scrollbar{
+html ::-webkit-scrollbar{
     width: 10px !important;
     background-color: var(--color-bg-default) !important;
     border: none !important;
@@ -181,8 +181,9 @@ html::-webkit-scrollbar{
     }
 
     &-thumb{
-        background-color: rgb(65, 65, 65) !important;
-        border-radius: 10px !important;
+        background-color: var(--scrollbar-thumb-color) !important;
+        border-radius: 50px !important;
+        border: 4px solid transparent !important;
     }
 } 
 
