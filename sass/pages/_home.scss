@@ -183,7 +183,7 @@ tbody.notion-collection-table__body{
 
 //Notion Columns
 .notion-column:first-of-type {
-    width: calc((100% - 30px) * 1) * 0.26087 !important;
+    width: calc((100% - 30px * 1) * 0.375) !important;
 }
 
 .notion-column:nth-of-type(2){
