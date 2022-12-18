@@ -431,6 +431,9 @@ tbody.notion-collection-table__body {
   display: flex !important;
   flex-direction: column !important;
 }
+.notion-collection-gallery.small .notion-collection-card .notion-collection-card__content {
+  width: auto !important;
+}
 
 .notion-semantic-string .link {
   border: none !important;

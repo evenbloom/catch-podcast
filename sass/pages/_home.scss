@@ -165,6 +165,9 @@ tbody.notion-collection-table__body{
     .notion-collection-card{
         display: flex !important;
         flex-direction: column !important;
+        .notion-collection-card__content{
+            width: auto !important;
+        }
     }
 }
 
