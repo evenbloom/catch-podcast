@@ -445,12 +445,12 @@ tbody.notion-collection-table__body {
   font-size: 1rem !important;
 }
 
-.notion-columns:first-of-type {
+.notion-column:first-of-type {
   width: 375px !important;
   position: fixed !important;
 }
 
-.notion-columns:nth-of-type(2) {
+.notion-column:nth-of-type(2) {
   margin-left: 405px !important;
   width: 100% !important;
 }
