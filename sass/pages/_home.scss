@@ -183,12 +183,12 @@ tbody.notion-collection-table__body{
 
 //Notion Columns
 .notion-column:first-of-type{
-    width: 375px !important;
-    position: fixed !important;
+    width: 250px !important;
+    position: absolute !important;
 }
 
 .notion-column:nth-of-type(2){
-    margin-left: calc(375px + 30px) !important;
+    margin-left: calc(250px + 30px) !important;
     width: 100% !important;
 }
 

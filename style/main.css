@@ -446,12 +446,12 @@ tbody.notion-collection-table__body {
 }
 
 .notion-column:first-of-type {
-  width: 375px !important;
-  position: fixed !important;
+  width: 250px !important;
+  position: absolute !important;
 }
 
 .notion-column:nth-of-type(2) {
-  margin-left: 405px !important;
+  margin-left: 280px !important;
   width: 100% !important;
 }
 
