@@ -116,7 +116,8 @@ h1.notion-heading {
 }
 
 h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
-  font-weight: 500 !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
 }
 
 h2.notion-heading {
@@ -448,6 +449,14 @@ tbody.notion-collection-table__body {
 }
 .notion-collection-gallery.small .notion-collection-card .notion-collection-card__content .notion-collection-card__property:nth-child(2) {
   font-size: 1rem !important;
+}
+
+.notion-column-list {
+  gap: 2.5em !important;
+}
+
+.notion-column {
+  margin: 0px !important;
 }
 
 .notion-semantic-string .link {
