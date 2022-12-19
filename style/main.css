@@ -447,6 +447,7 @@ tbody.notion-collection-table__body {
 
 .notion-column-list {
   gap: 4rem !important;
+  flex-wrap: nowrap !important;
 }
 
 .notion-column:first-of-type {
