@@ -59,7 +59,7 @@ html, body {
   5. Improve text rendering
 */
 body {
-  line-height: 1.5 !important;
+  line-height: 1 !important;
   position: relative !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
@@ -457,6 +457,12 @@ tbody.notion-collection-table__body {
 
 .notion-column {
   margin: 0px !important;
+}
+
+.caption-dash {
+  width: 5.2em !important;
+  height: 1px !important;
+  background-color: var(--color-text-default) !important;
 }
 
 .notion-semantic-string .link {
