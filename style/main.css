@@ -445,20 +445,6 @@ tbody.notion-collection-table__body {
   font-size: 1rem !important;
 }
 
-.notion-column-list {
-  gap: 4rem !important;
-  flex-wrap: nowrap !important;
-}
-
-.notion-column:first-of-type {
-  width: calc((100% - 8rem) * 0.375) !important;
-}
-
-.notion-column:nth-of-type(2) {
-  margin-inline-start: 0px !important;
-  width: 100% !important;
-}
-
 .notion-semantic-string .link {
   border: none !important;
   /* opacity: .5 !important; */
