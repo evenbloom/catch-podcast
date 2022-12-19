@@ -59,7 +59,7 @@ html, body {
   5. Improve text rendering
 */
 body {
-  line-height: 1 !important;
+  line-height: 1.5 !important;
   position: relative !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
@@ -284,6 +284,10 @@ p {
 
 .max-width {
   max-width: 1680px !important;
+}
+
+.notion-heading .notion-semantic-string {
+  line-height: 1 !important;
 }
 
 .notion-collection__header-wrapper {
