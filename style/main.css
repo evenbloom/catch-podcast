@@ -448,6 +448,9 @@ tbody.notion-collection-table__body {
   border: none !important;
   padding: 0px !important;
 }
+.notion-collection-gallery.small .notion-collection-card .notion-collection-card__cover {
+  flex: 0 0 290px !important;
+}
 .notion-collection-gallery.small .notion-collection-card .notion-collection-card__content {
   width: auto !important;
 }
