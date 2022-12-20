@@ -111,12 +111,15 @@ tbody.notion-collection-table__body{
     border: 1px solid var(--color-border-default)!important;
     padding: 2rem !important;
     background: none !important;
-    box-shadow: var(--color-boxshadow-default) !important;
 }
 
 .notion-collection-card:hover{
-    box-shadow: var(--color-hovershadow-default) !important;
-    transition: box-shadow .5s ease-in-out !important;
+    background: var(--color-bg-hover-default) !important;
+    transition: all .3s ease-in-out !important;
+}
+
+.notion-collection-card:hover .notion-collection-card__cover img{
+    transform: scale(1.05)!important;
 }
 
 

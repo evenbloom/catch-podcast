@@ -11,8 +11,7 @@
     --color-hover-default: linear-gradient(to bottom, rgba(32, 32, 32, 0), rgb(208 106 78 / 10%) 98%) !important;
     --color-cta-background: rgb(237, 237, 237) !important;
     --color-cta-text: rgb(32, 32, 32) !important;
-    --color-boxshadow-default: rgb(208 106 78 / 10%) 0px 10px 30px -10px, rgb(32 32 32 / 30%) 0px 10px 60px -50px !important;
-    --color-hovershadow-default: rgba(229 144 74 / 20%) 0px 10px 30px -10px, rgb(32 32 32 / 30%) 0px 10px 60px -50px !important;
+    --color-bg-hover-default:rgb(37 37 37) !important;
     --scrollbar-thumb-color: rgba(110, 110, 110, 0.1) !important;
 }
 
@@ -27,7 +26,6 @@
     --color-hover-default: linear-gradient(to bottom, rgba(237, 237, 237, 0), rgb(208 106 78 / 10%) 98%)!important;
     --color-cta-background: rgb(32, 32, 32) !important;
     --color-cta-text: rgb(237, 237, 237) !important;
-    --color-boxshadow-default: rgb(208 106 78 / 16%) 0px 10px 36px 0px, rgb(208 106 78 / 6%) 0px 0px 0px 1px !important;
-    --color-hovershadow-default: rgb(38 44 59 / 4%) 0px 5.6347px 10.0172px 0px, rgb(228 221 59 / 4%) 0px 10.0513px 17.869px 0px, rgb(38 44 59 / 5%) 0px 18.7999px 33.4221px 0px, rgb(208 106 78 / 7%) 0px 45px 80px 0px !important;
+    --color-bg-hover-default:rgb(238, 215, 198) !important;
     --scrollbar-thumb-color: rgba(158, 158, 158, 0.1) !important;
 }
