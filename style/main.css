@@ -389,8 +389,9 @@ tbody.notion-collection-table__body {
 }
 
 .notion-collection-card:hover .notion-collection-card__cover img {
-  transform: scale(1.05) !important;
-  transition: all 0.3s ease-in-out !important;
+  transform: scale(1.08) rotate(0.01deg) !important;
+  -webkit-transition: all 0.4s !important;
+  transition: all 0.4s !important;
 }
 
 .notion-collection-card__cover {
