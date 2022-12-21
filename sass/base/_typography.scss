@@ -15,10 +15,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1.notion-heading{
-    font-size: var(--font-size-6) !important;
+/*     font-size: var(--font-size-6) !important;
     font-weight: 500 !important;
-    line-height: 1em !important;
+    line-height: 1em !important;*/
     padding-bottom: 1rem !important;
+    --tt-key: titles !important;
+    --tt-max: 500 !important;
 }
 
 h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
@@ -38,4 +40,17 @@ h3.notion-heading{
 
 p{
     font-size: var(--font-size-1) !important;
+}
+
+
+@keyframes titles{
+    0%{
+        font-size: 1.25rem !important;
+        color:pink !important;
+    }
+    100%{
+        font-size: 3rem !important;
+        line-height: .9 !important;
+        color: aquamarine !important;
+    }
 }
