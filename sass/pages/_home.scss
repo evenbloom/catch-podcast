@@ -268,6 +268,16 @@ html ::-webkit-scrollbar{
 
 }
 
+#page-index .notion-callout{
+    margin: 0 !important;
+    overflow: visible !important;
+}
+
+
+.notion-callout .notion-column-list{
+    align-items: center !important;
+}
+
 #page-index .notion-callout .notion-callout__icon{
     display: none !important;
 }
