@@ -292,6 +292,11 @@ html ::-webkit-scrollbar{
     border-radius: 50% !important;
 }
 
+.notion-callout__content{
+    margin-inline-start: 0px !important;
+    overflow: visible !important;
+}
+
 //media queries
 
 @media (max-width: 600px) {
