@@ -546,9 +546,17 @@ html ::-webkit-scrollbar-thumb {
   width: fit-content !important;
 }
 
+.notion-callout .notion-column:last-child {
+  margin-inline-start: 16px !important;
+}
+
 .notion-callout .notion-column-list .notion-image {
   width: 55px !important;
   height: 55px !important;
+  border-radius: 50% !important;
+}
+
+.notion-callout .notion-column-list .notion-image img {
   border-radius: 50% !important;
 }
 
