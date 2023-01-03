@@ -99,8 +99,8 @@ p, h1, h2, h3, h4, h5, h6 {
   --font-size-2: 1.5rem;
   --font-size-3: 2rem;
   --font-size-4: 2.5rem;
-  --font-size-5: 3.75em;
-  --font-size-6: 4em;
+  --font-size-5: 3.75rem;
+  --font-size-6: 4rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -182,6 +182,16 @@ p {
   padding: 0px !important;
 }
 
+.super-navbar__button {
+  height: 100% !important;
+  cursor: pointer !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  opacity: 0.5 !important;
+  transition: opacity 0.3s ease-in-out !important;
+}
+
 .theme-switch {
   width: 22px !important;
   height: 22px !important;
@@ -205,6 +215,10 @@ p {
 
 .theme-blackout .light-mode-icon {
   display: flex !important;
+}
+
+.theme-blackout .super-navbar__button {
+  stroke: var(--color-text-default) !important;
 }
 
 .theme-default .dark-mode-icon svg, .theme-default .super-navbar__button svg {
