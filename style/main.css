@@ -566,6 +566,10 @@ html ::-webkit-scrollbar-thumb {
   overflow: visible !important;
 }
 
+.notion-callout .notion-column .notion-text__content {
+  padding: 0 !important;
+}
+
 @media (max-width: 600px) {
   tbody.notion-collection-table__body {
     margin-top: 4rem !important;
