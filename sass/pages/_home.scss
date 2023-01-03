@@ -309,6 +309,10 @@ html ::-webkit-scrollbar{
     padding: 0 !important;
 }
 
+.notion-callout .notion-column .notion-text{
+    min-height: auto !important;
+}
+
 //media queries
 
 @media (max-width: 600px) {
