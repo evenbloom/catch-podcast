@@ -555,12 +555,12 @@ html ::-webkit-scrollbar-thumb {
   transition: box-shadow 0.2s ease-out !important;
   color: var(--color-text-default) !important;
 }
-#page-index .notion-callout.bg-gray-light .notion-callout .notion-column-list .notion-image {
+#page-index .notion-callout.bg-gray-light .notion-image {
   width: auto !important;
   height: auto !important;
   border-radius: 20px !important;
 }
-#page-index .notion-callout.bg-gray-light .notion-callout .notion-column-list .notion-image img {
+#page-index .notion-callout.bg-gray-light .notion-image img {
   border-radius: 20px !important;
 }
 #page-index .notion-callout.bg-gray-light .notion-column-list {
