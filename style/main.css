@@ -132,7 +132,7 @@ h3.notion-heading {
 }
 
 p {
-  font-size: var(--font-size-1) !important;
+  font-size: var(--font-size-0) !important;
 }
 
 .notion-header__cover.has-cover {
