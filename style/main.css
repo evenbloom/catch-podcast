@@ -563,6 +563,9 @@ html ::-webkit-scrollbar-thumb {
 #page-index .notion-callout.bg-gray-light .notion-callout .notion-column-list .notion-image img {
   border-radius: 20px !important;
 }
+#page-index .notion-callout.bg-gray-light .notion-column-list {
+  flex-wrap: nowrap !important;
+}
 
 .notion-callout {
   padding: 2rem !important;
