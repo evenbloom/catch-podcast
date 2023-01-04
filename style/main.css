@@ -551,7 +551,7 @@ html ::-webkit-scrollbar-thumb {
 
 #page-index .notion-callout.bg-gray-light {
   border: solid 1px transparent !important;
-  padding: 48px !important;
+  padding: 90px !important;
   transition: box-shadow 0.2s ease-out !important;
   color: var(--color-text-default) !important;
 }
