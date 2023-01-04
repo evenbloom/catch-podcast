@@ -122,7 +122,8 @@ h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
 
 h2.notion-heading {
   font-size: var(--font-size-5) !important;
-  line-height: 0.6 !important;
+  line-height: 1.1 !important;
+  padding-bottom: 2.5rem !important;
 }
 
 h3.notion-heading {
@@ -544,7 +545,7 @@ html ::-webkit-scrollbar-thumb {
   margin-left: -50vw !important;
   height: auto !important;
   left: 50% !important;
-  background: var(--color-bg-default) !important;
+  background: var(--color-link-default) !important;
   border-radius: 0 !important;
 }
 
@@ -553,6 +554,14 @@ html ::-webkit-scrollbar-thumb {
   padding: 48px !important;
   transition: box-shadow 0.2s ease-out !important;
   color: var(--color-text-default) !important;
+}
+#page-index .notion-callout.bg-gray-light .notion-callout .notion-column-list .notion-image {
+  width: auto !important;
+  height: auto !important;
+  border-radius: 20px !important;
+}
+#page-index .notion-callout.bg-gray-light .notion-callout .notion-column-list .notion-image img {
+  border-radius: 20px !important;
 }
 
 .notion-callout {
