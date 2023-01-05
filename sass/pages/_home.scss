@@ -261,25 +261,14 @@ html ::-webkit-scrollbar{
 
 
 //callout - About us
-#page-index #block-b2e6841b5fd14eaba2ee741ece45a8e2{
-    width: 100vw !important;
-    text-align: left !important;
-    position: relative !important;
-    margin-left: -50vw !important;
-    height: auto !important;
-    left: 50% !important;
-    background: var(--color-callout-background) !important;
-    border-radius: 0 !important;
-}
 
 #page-index .notion-callout.bg-gray-light{
-    border: solid 1px transparent !important;
-    padding: 90px !important;
     transition: box-shadow .2s ease-out !important;
     color: var(--color-text-default) !important;
 
     .notion-column-list{
         flex-wrap: nowrap !important;
+        gap: 3.5rem !important;
     }
 }
 
