@@ -286,6 +286,16 @@ html ::-webkit-scrollbar{
     width: calc((100% - 46px *1)*0.423077) !important;
 }
 
+//divider
+.notion-divider{
+    border-bottom: 1px solid var(--color-border-default) !important;
+    margin-left: -40px !important;
+    margin-right: -32px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    width: unset !important;
+}
+
 
 
 //callouts--Reviews
