@@ -553,7 +553,7 @@ html ::-webkit-scrollbar-thumb {
 #page-index .notion-callout.bg-gray-light .notion-image {
   width: 100% !important;
   height: 100% !important;
-  border-radius: 20px !important;
+  border-radius: 10px !important;
 }
 
 #page-index .notion-callout.bg-gray-light .notion-image img {
