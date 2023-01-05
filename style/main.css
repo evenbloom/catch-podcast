@@ -497,7 +497,8 @@ tbody.notion-collection-table__body {
 }
 
 .notion-column-list {
-  gap: 3rem !important;
+  gap: 3.5rem !important;
+  flex-wrap: nowrap !important;
 }
 
 .notion-column {
