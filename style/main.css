@@ -555,16 +555,17 @@ html ::-webkit-scrollbar-thumb {
   transition: box-shadow 0.2s ease-out !important;
   color: var(--color-text-default) !important;
 }
-#page-index .notion-callout.bg-gray-light .notion-image {
-  width: auto !important;
-  height: auto !important;
-  border-radius: 20px !important;
-}
-#page-index .notion-callout.bg-gray-light .notion-image img {
-  border-radius: 20px !important;
-}
 #page-index .notion-callout.bg-gray-light .notion-column-list {
   flex-wrap: nowrap !important;
+}
+
+.notion-callout .bg-gray-light .notion-callout__content .notion-column-list .notion-column .notion-image {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.notion-callout .notion-column-list .notion-image img {
+  border-radius: 20px !important;
 }
 
 .notion-callout {
