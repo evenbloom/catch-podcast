@@ -283,12 +283,13 @@ html ::-webkit-scrollbar{
     }
 }
 
-.notion-callout .bg-gray-light .notion-callout__content .notion-column-list .notion-column .notion-image{
+#page-index .notion-callout.bg-gray-light .notion-image{
     width: 100% !important;
     height: 100% !important;
-
+    border-radius: 20px !important;
 }
-.notion-callout .notion-column-list .notion-image img{
+
+#page-index .notion-callout.bg-gray-light .notion-image img{
     border-radius: 20px !important;
 }
 
