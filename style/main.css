@@ -541,6 +541,7 @@ html ::-webkit-scrollbar-thumb {
 }
 
 #page-index .notion-callout.bg-gray-light {
+  background: transparent !important;
   transition: box-shadow 0.2s ease-out !important;
   color: var(--color-text-default) !important;
 }
