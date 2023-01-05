@@ -263,7 +263,8 @@ html ::-webkit-scrollbar{
 //callout - About us
 
 #page-index .notion-callout.bg-gray-light{
-    background: transparent !important;
+    background: var(--color-callout-background) !important;
+    backdrop-filter: blur(10px) !important;
     transition: box-shadow .2s ease-out !important;
     color: var(--color-text-default) !important;
 

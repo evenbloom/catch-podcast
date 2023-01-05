@@ -2,7 +2,6 @@
 .theme-blackout body {
   --color-bg-default: rgb(32, 32, 32) !important;
   --theme-gradient: linear-gradient(to bottom, rgba(32, 32, 32, 0), rgba(32, 32, 32, 1) 98%) !important;
-  /* --color-border-default: hsla(0,0%,100%,.1) !important; */
   --color-border-default: hsl(0deg 0% 43% / 20%) !important;
   --color-bg-transparent-default: rgb(255, 255, 255, 0) !important;
   --color-text-default: hsl(0, 0%, 93%) !important;
@@ -11,7 +10,7 @@
   --color-hover-default: linear-gradient(to bottom, rgba(32, 32, 32, 0), rgb(208 106 78 / 10%) 98%) !important;
   --color-cta-background: rgb(237, 237, 237) !important;
   --color-cta-text: rgb(32, 32, 32) !important;
-  --color-callout-background:rgb(37 37 37) !important;
+  --color-callout-background:rgb(255 255 255/3%) !important;
   --color-bg-hover-default:rgb(37 37 37) !important;
   --scrollbar-thumb-color: rgba(110, 110, 110, 0.1) !important;
 }
@@ -27,7 +26,7 @@
   --color-hover-default: linear-gradient(to bottom, rgba(237, 237, 237, 0), rgb(208 106 78 / 10%) 98%)!important;
   --color-cta-background: rgb(32, 32, 32) !important;
   --color-cta-text: rgb(237, 237, 237) !important;
-  --color-callout-background:rgb(236 226 217) !important;
+  --color-callout-background:rgb(30 88 255/6%) !important;
   --color-bg-hover-default:rgb(236 226 217) !important;
   --scrollbar-thumb-color: rgba(158, 158, 158, 0.1) !important;
 }
@@ -541,7 +540,8 @@ html ::-webkit-scrollbar-thumb {
 }
 
 #page-index .notion-callout.bg-gray-light {
-  background: transparent !important;
+  background: var(--color-callout-background) !important;
+  backdrop-filter: blur(10px) !important;
   transition: box-shadow 0.2s ease-out !important;
   color: var(--color-text-default) !important;
 }
