@@ -169,7 +169,8 @@ p {
 }
 
 .super-navbar {
-  width: calc(100% - 193px) !important;
+  /* width: calc(100% - 193px) !important; */
+  width: calc(100% - 600px) !important;
   height: 65px !important;
   margin: 20px auto !important;
   padding: 0px 0px !important;
@@ -252,6 +253,11 @@ p {
   border-radius: 8px !important;
 }
 
+@media (max-width: 546px) {
+  .super-navbar {
+    width: calc(100% - 40px) !important;
+  }
+}
 .notion-toggle {
   border: 1px solid var(--color-border-default) !important;
   border-radius: 5px !important;
