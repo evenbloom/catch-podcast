@@ -330,7 +330,7 @@ thead.notion-collection-table__head {
 tbody.notion-collection-table__body {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
-  gap: 3.5rem !important;
+  gap: 3rem !important;
 }
 
 .notion-collection-table {
@@ -497,7 +497,7 @@ tbody.notion-collection-table__body {
 }
 
 .notion-column-list {
-  gap: 3.5rem !important;
+  gap: 3rem !important;
   flex-wrap: nowrap !important;
 }
 
@@ -548,7 +548,7 @@ html ::-webkit-scrollbar-thumb {
 }
 #page-index .notion-callout.bg-gray-light .notion-column-list {
   flex-wrap: nowrap !important;
-  gap: 3.5rem !important;
+  gap: 3rem !important;
 }
 
 #page-index .notion-callout.bg-gray-light .notion-image {
