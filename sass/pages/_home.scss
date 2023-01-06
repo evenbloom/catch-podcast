@@ -37,6 +37,7 @@ tbody.notion-collection-table__body{
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
     gap: 3rem !important;
+    font-size: var(--font-size-1);
 
 }
 
@@ -309,7 +310,7 @@ html ::-webkit-scrollbar{
     border: 1px solid var(--color-border-default) !important;
     border-radius: 20px !important;
     margin-bottom: 24px !important;
-    font-size: var(--font-size-0) !important;
+    font-size: var(--font-size-1) !important;
 
 }
 
