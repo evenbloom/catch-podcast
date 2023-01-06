@@ -330,7 +330,7 @@ thead.notion-collection-table__head {
 tbody.notion-collection-table__body {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
-  gap: 2rem !important;
+  gap: 3.5rem !important;
 }
 
 .notion-collection-table {
@@ -348,7 +348,7 @@ tbody.notion-collection-table__body {
 .notion-collection-table tr {
   padding: 2rem !important;
   display: grid !important;
-  grid-template-columns: 180px 300px !important;
+  grid-template-columns: 1fr 2fr !important;
   border-collapse: inherit !important;
   border: 1px solid var(--color-border-default) !important;
   border-radius: 20px !important;
