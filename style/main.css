@@ -598,10 +598,9 @@ html ::-webkit-scrollbar-thumb {
   display: none !important;
 }
 
-.notion-callout .notion-column:first-child {
-  width: fit-content !important;
-}
-
+/* .notion-callout .notion-column:first-child{
+    width: fit-content !important;
+} */
 .notion-callout .notion-column:last-child {
   margin-inline-start: 0px !important;
 }
