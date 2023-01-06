@@ -29,6 +29,7 @@
   --color-callout-background:rgb(30 88 255/6%) !important;
   --color-bg-hover-default:rgb(30 88 255/6%) !important;
   --scrollbar-thumb-color: rgba(158, 158, 158, 0.1) !important;
+  --collection-card-shadow: rgb(225 228 238 / 58%) 0px 0px 0px 1px, rgb(183 188 204 / 46%) 0px 1px 15px !important ;
 }
 
 /*
@@ -416,6 +417,7 @@ tbody.notion-collection-table__body {
   background: none !important;
   -webkit-transition: all 0.4s !important;
   transition: all 0.4s !important;
+  box-shadow: none !important;
 }
 
 .notion-collection-card:hover {
