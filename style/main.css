@@ -561,10 +561,9 @@ html ::-webkit-scrollbar-thumb {
   border-radius: 10px !important;
 }
 
-.notion-callout.bg-gray-light .notion-column:first-child {
-  width: calc((100% - 46px) * 0.423077) !important;
-}
-
+/* .notion-callout.bg-gray-light .notion-column:first-child {
+    width: calc((100% - 46px *1)*0.423077) !important;
+} */
 .notion-divider {
   border-bottom: 1px solid var(--color-border-default) !important;
   margin-left: -40px !important;
