@@ -29,7 +29,6 @@
   --color-callout-background:rgb(30 88 255/6%) !important;
   --color-bg-hover-default:rgb(30 88 255/6%) !important;
   --scrollbar-thumb-color: rgba(158, 158, 158, 0.1) !important;
-  --collection-card-shadow: rgb(225 228 238 / 58%) 0px 0px 0px 1px, rgb(183 188 204 / 46%) 0px 1px 15px !important ;
 }
 
 /*
@@ -314,6 +313,10 @@ p {
 .notion-toggle__content {
   padding: 0px 30px 20px 30px !important;
   background: var(--color-hover-default) !important;
+}
+
+.parent-page__index .notion-root {
+  width: 58.33333333% !important;
 }
 
 .super-content.max-width {
