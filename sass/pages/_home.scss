@@ -287,6 +287,9 @@ html ::-webkit-scrollbar{
     border-radius: 10px !important;
 }
 
+.notion-callout.notion-callout.bg-gray-light h3{
+    text-align: left !important;
+}
 /* .notion-callout.bg-gray-light .notion-column:first-child {
     width: calc((100% - 46px *1)*0.423077) !important;
 } */

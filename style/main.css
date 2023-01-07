@@ -315,7 +315,7 @@ p {
   background: var(--color-hover-default) !important;
 }
 
-.parent-page__index .notion-root {
+.parent-page__index .notion-text {
   width: 58.33333333% !important;
 }
 
@@ -584,6 +584,10 @@ html ::-webkit-scrollbar-thumb {
 
 #page-index .notion-callout.bg-gray-light .notion-image img {
   border-radius: 10px !important;
+}
+
+.notion-callout.notion-callout.bg-gray-light h3 {
+  text-align: left !important;
 }
 
 /* .notion-callout.bg-gray-light .notion-column:first-child {
