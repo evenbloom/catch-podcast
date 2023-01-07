@@ -317,6 +317,7 @@ p {
 
 .parent-page__index .notion-text {
   width: 58.33333333% !important;
+  margin: 0 auto !important;
 }
 
 .super-content.max-width {
