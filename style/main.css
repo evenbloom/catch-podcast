@@ -118,6 +118,7 @@ h1.notion-heading {
 h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
   font-weight: 400 !important;
   line-height: 1 !important;
+  text-align: left !important;
 }
 
 h2.notion-heading {
