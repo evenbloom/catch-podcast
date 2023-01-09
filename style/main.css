@@ -167,8 +167,7 @@ p {
 }
 
 .super-navbar {
-  /* width: calc(100% - 193px) !important; */
-  max-width: 1480px !important;
+  width: calc(100% - 193px) !important;
   height: 65px !important;
   margin: 20px auto !important;
   padding: 0px 0px !important;
