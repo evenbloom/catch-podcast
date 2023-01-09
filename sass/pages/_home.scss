@@ -387,5 +387,15 @@ html ::-webkit-scrollbar{
     
 }
 
+@media (max-width: 546px){
+    h1.notion-heading{
+        font-size: var(--font-size-4) !important;
+    }
+    
+    .notion-column-list{
+        flex-direction: column !important;
+    }
+}
+
 
 
