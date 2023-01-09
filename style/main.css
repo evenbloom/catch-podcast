@@ -682,4 +682,7 @@ html ::-webkit-scrollbar-thumb {
   .notion-column-list {
     flex-direction: column !important;
   }
+  .notion-callout__content {
+    margin-inline-start: 0px !important;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -391,9 +391,12 @@ html ::-webkit-scrollbar{
     h1.notion-heading{
         font-size: var(--font-size-4) !important;
     }
-    
+
     .notion-column-list{
         flex-direction: column !important;
+    }
+    .notion-callout__content{
+        margin-inline-start: 0px !important;
     }
 }
 
