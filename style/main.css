@@ -688,4 +688,11 @@ html ::-webkit-scrollbar-thumb {
   .notion-collection-gallery.medium {
     grid-template-columns: 1fr !important;
   }
+  tbody.notion-collection-table__body {
+    grid-template-columns: 1fr !important;
+  }
+  .notion-collection-table tr {
+    padding: 2rem !important;
+    grid-template-columns: 1fr !important;
+  }
 }/*# sourceMappingURL=main.css.map */
