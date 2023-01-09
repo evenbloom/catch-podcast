@@ -318,6 +318,10 @@ p {
   width: 58.33333333% !important;
   margin: 0 auto !important;
 }
+.parent-page__index .notion-heading {
+  width: 58.33333333% !important;
+  margin: 0 auto !important;
+}
 
 .super-content.max-width {
   margin: auto !important;

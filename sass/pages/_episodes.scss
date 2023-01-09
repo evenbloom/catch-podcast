@@ -44,7 +44,14 @@
 
 }
 
-.parent-page__index .notion-text{
-    width: 58.33333333% !important;
-    margin: 0 auto !important;
+.parent-page__index {
+
+    .notion-text{
+        width: 58.33333333% !important;
+        margin: 0 auto !important;
+    }
+    .notion-heading{
+        width: 58.33333333% !important;
+        margin: 0 auto !important;
+    }
 }
