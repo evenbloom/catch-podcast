@@ -1,8 +1,9 @@
-var darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
+ var darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
   , getCurrentTheme = ()=>localStorage.getItem("theme")
   , saveThemeInLocalStorage = e=>localStorage.setItem("theme", e)
   , isThemeDark = ()=>"dark" === getCurrentTheme()
   , isThemeLight = ()=>"light" === getCurrentTheme();
+
 function setLightMode() {
     document.querySelector("html").classList.add("theme-default"),
     document.querySelector("html").classList.remove("theme-blackout"),
