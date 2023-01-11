@@ -322,6 +322,12 @@ html ::-webkit-scrollbar{
     overflow: visible !important;
 }
 
+#page-index .notion-callout:hover{
+    box-shadow: var(--color-box-shadow) !important;
+    border: 1px solid transparent !important;
+    transform: translateY(-2px) !important;
+}
+
 
 .notion-callout .notion-column-list{
     align-items: center !important;
