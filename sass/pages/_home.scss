@@ -34,8 +34,8 @@ thead.notion-collection-table__head{
 }
 
 tbody.notion-collection-table__body{
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
+    display: flex !important;
+    justify-content: center !important;
     gap: 3rem !important;
     font-size: var(--font-size-1);
 
@@ -56,7 +56,7 @@ tbody.notion-collection-table__body{
 .notion-collection-table tr{
     padding: 2rem !important;
     display: grid !important;
-    grid-template-columns: 1fr 2fr !important;
+    grid-template-columns: 1fr !important;
     border-collapse: inherit !important;
     border: 1px solid var(--color-border-default) !important;
     border-radius: 20px !important;
