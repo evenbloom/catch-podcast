@@ -293,6 +293,7 @@ html ::-webkit-scrollbar{
 
 #page-index .notion-callout.bg-gray-light .notion-image img{
     border-radius: 10px !important;
+    object-fit: cover !important;
 }
 
 .notion-callout.notion-callout.bg-gray-light h3{
