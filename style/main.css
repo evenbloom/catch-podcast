@@ -407,9 +407,11 @@ tbody.notion-collection-table__body {
   grid-column: span 1 !important;
 }
 
-/* .notion-collection-table td:last-child, .notion-collection-table th:last-child{
-    grid-column: span 3 !important;
-} */
+.notion-collection-table td:last-child, .notion-collection-table th:last-child {
+  position: absolute !important;
+  padding: 10px 15px !important;
+}
+
 .notion-collection-table__head-cell {
   display: none !important;
 }
