@@ -243,11 +243,11 @@ tbody.notion-collection-table__body{
 }
 
 .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong{
-    color: var(--color-text-default) !important;
+    color: var(--color-cta-text) !important;
     background: var(--color-cta-background) !important;
     padding: 10px 15px !important;
     margin: 20px 0px !important;
-    border-radius: 10px !important;
+    border-radius: 50% !important;
     opacity: 1 !important;
     font-weight: 500 !important;
     display: inline-flex !important;
