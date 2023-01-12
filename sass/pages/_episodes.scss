@@ -52,6 +52,12 @@
     }
     .notion-heading{
         width: 58.33333333% !important;
-        margin: 0 auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    h3.notion-heading strong{
+    text-align: left !important;
     }
 }
