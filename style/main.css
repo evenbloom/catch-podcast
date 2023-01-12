@@ -561,6 +561,19 @@ tbody.notion-collection-table__body {
   opacity: 1 !important;
 }
 
+.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
+  color: var(--color-text-default) !important;
+  background: var(--color-cta-background) !important;
+  padding: 10px 15px !important;
+  margin: 20px 0px !important;
+  border-radius: 10px !important;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  transition: background 0.2s ease-in-out !important;
+}
+
 ::selection {
   background: var(--color-link-default) !important;
   opacity: 0.5 !important;
