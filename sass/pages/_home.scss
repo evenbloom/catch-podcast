@@ -81,8 +81,7 @@ tbody.notion-collection-table__body{
 }
 
 .notion-collection-table td:first-of-type, .notion-collection-table th:first-of-type{
-    grid-row: span 3 !important;
-    grid-column: span 1 !important;
+    display: inline !important;
 }
 
 .notion-collection-table td:last-child, .notion-collection-table th:last-child{
@@ -100,9 +99,9 @@ tbody.notion-collection-table__body{
 }
 
  .notion-property.notion-property__file.property-63756178 a div{
-    width: 350px !important;
-    max-width: 350px !important;
-    height: 350px !important;
+    width: 100% !important;
+    height: 500px !important;
+    
     img{
         border-radius: 8px !important;
         object-fit: cover !important;
@@ -448,12 +447,6 @@ html ::-webkit-scrollbar{
     .notion-collection-table tr{
         padding: 2rem !important;
         grid-template-columns: 1fr !important;
-    }
-
-    .notion-property.notion-property__file.property-63756178 a div{
-    width: 150px !important;
-    max-width: 150px !important;
-    height: 150px !important;
     }
 
 }
