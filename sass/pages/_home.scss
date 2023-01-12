@@ -84,6 +84,14 @@ tbody.notion-collection-table__body{
     display: inline !important;
 }
 
+.notion-collection-table td:nth-child(2){
+    font-size: 2rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 500 !important;
+    font-family: 'Lexend', sans-serif !important;
+}
+
 .notion-collection-table td:last-child, .notion-collection-table th:last-child{
     position: absolute !important;
     padding: 10px 15px !important;
@@ -101,7 +109,7 @@ tbody.notion-collection-table__body{
  .notion-property.notion-property__file.property-63756178 a div{
     width: 100% !important;
     height: 500px !important;
-    
+
     img{
         border-radius: 8px !important;
         object-fit: cover !important;
