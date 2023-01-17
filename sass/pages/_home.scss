@@ -258,20 +258,21 @@ tbody.notion-collection-table__body{
     background: var(--color-cta-background) !important;
     padding: 0.6rem 1.6rem !important;
     margin: 20px 0px !important;
+    font-size: 1.125 !important;
     font-family: "Satoshi Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
     letter-spacing: 0.05rem !important;
     border-radius: 50px !important;
     border: 0.2rem solid var(--color-border-default) !important;
     opacity: 1 !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     display: inline-flex !important;
     justify-content: center !important;
     transition: background .2s ease-in-out !important;
 }
 
 .notion-text.notion-text__content .notion-sematic-string strong a.link:hover{
-    background: var(--color-cta-background) !important;
-    color: var(--color-cta-text) !important;
+    background: transparent !important;
+    color: var(--color-text-default) !important;
 }
 
 
