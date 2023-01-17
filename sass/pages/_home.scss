@@ -404,6 +404,10 @@ html ::-webkit-scrollbar{
     min-height: auto !important;
 }
 
+.notion-callout h2{
+    text-align: left !important;
+}
+
 //media queries
 
 @media (max-width: 600px) {
