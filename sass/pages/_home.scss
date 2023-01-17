@@ -270,7 +270,7 @@ tbody.notion-collection-table__body{
     transition: background .2s ease-in-out !important;
 }
 
-.notion-text.notion-text__content .notion-sematic-string strong a.link:hover{
+.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong:hover{
     background: transparent !important;
     color: var(--color-text-default) !important;
 }

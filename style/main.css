@@ -329,9 +329,6 @@ p {
   margin-right: auto !important;
   margin-bottom: 1.5rem !important;
 }
-.parent-page__index h3.notion-heading strong {
-  text-align: left !important;
-}
 
 .super-content.max-width {
   margin: auto !important;
@@ -589,7 +586,7 @@ tbody.notion-collection-table__body {
   transition: background 0.2s ease-in-out !important;
 }
 
-.notion-text.notion-text__content .notion-sematic-string strong a.link:hover {
+.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong:hover {
   background: transparent !important;
   color: var(--color-text-default) !important;
 }
