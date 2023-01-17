@@ -707,7 +707,7 @@ html ::-webkit-scrollbar-thumb {
   min-height: auto !important;
 }
 
-.notion-callout h2 {
+.notion-callout .notion-heading {
   text-align: left !important;
 }
 
