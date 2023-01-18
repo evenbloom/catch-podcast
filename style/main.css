@@ -762,4 +762,9 @@ html ::-webkit-scrollbar-thumb {
     padding: 2rem !important;
     grid-template-columns: 1fr !important;
   }
+}
+@media screen and (max-width: 1090px) {
+  .notion-callout .notion-column {
+    flex-grow: 1 !important;
+  }
 }/*# sourceMappingURL=main.css.map */

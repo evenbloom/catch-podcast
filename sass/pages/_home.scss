@@ -480,3 +480,9 @@ html ::-webkit-scrollbar{
 
 }
 
+@media screen and (max-width: 1090px){
+    .notion-callout .notion-column{
+        flex-grow: 1 !important;
+    }  
+}
+
