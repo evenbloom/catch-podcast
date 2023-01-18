@@ -484,5 +484,8 @@ html ::-webkit-scrollbar{
     .notion-callout .notion-column{
         flex-grow: 1 !important;
     }  
+    .notion-collection-gallery.medium{
+        grid-template-columns: 1fr !important;
+    }
 }
 

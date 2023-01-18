@@ -767,4 +767,7 @@ html ::-webkit-scrollbar-thumb {
   .notion-callout .notion-column {
     flex-grow: 1 !important;
   }
+  .notion-collection-gallery.medium {
+    grid-template-columns: 1fr !important;
+  }
 }/*# sourceMappingURL=main.css.map */
