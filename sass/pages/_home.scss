@@ -463,6 +463,10 @@ html ::-webkit-scrollbar{
     .notion-callout__content{
         margin-inline-start: 0px !important;
     }
+    
+    .notion-callout.bg-gray-light .notion-column-list{
+        flex-direction: column-reverse !important;
+    }
 
     //gallery
     .notion-collection-gallery.medium{
@@ -484,8 +488,17 @@ html ::-webkit-scrollbar{
     .notion-callout .notion-column{
         flex-grow: 1 !important;
     }  
+}
+
+@media screen and (max-width:1150px){
     .notion-collection-gallery.medium{
         grid-template-columns: 1fr !important;
+    }
+}
+
+@media screen and (max-width:890px){
+    .notion-callout.bg-gray-light{
+
     }
 }
 
