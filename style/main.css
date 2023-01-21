@@ -767,10 +767,10 @@ html ::-webkit-scrollbar-thumb {
   }
 }
 @media screen and (max-width: 1090px) {
-  .notion-column-list {
+  .notion-callout .notion-column-list {
     flex-wrap: wrap !important;
   }
-  .notion-column {
+  .notion-callout .notion-column-list .notion-column {
     flex-grow: 1 !important;
   }
 }
