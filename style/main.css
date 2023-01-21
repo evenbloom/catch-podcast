@@ -773,6 +773,9 @@ html ::-webkit-scrollbar-thumb {
   .notion-callout .notion-column-list .notion-column {
     flex-grow: 1 !important;
   }
+  .notion-callout .notion-column:first-child {
+    max-width: fit-content !important;
+  }
 }
 @media screen and (max-width: 1150px) {
   .notion-collection-gallery.medium {
