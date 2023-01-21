@@ -571,7 +571,7 @@ tbody.notion-collection-table__body {
 
 .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
   color: var(--color-cta-text) !important;
-  background: var(--color-callout-background) !important;
+  background: var(--color-cta-background) !important;
   padding: 0.6rem 1.6rem !important;
   margin: 20px 0px !important;
   font-size: 1.125 !important;
