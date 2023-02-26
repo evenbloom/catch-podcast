@@ -364,7 +364,7 @@ html ::-webkit-scrollbar{
 }
 
 #page-index .notion-callout{
-    margin: 0 !important;
+    /* margin: 0 !important; */
     overflow: visible !important;
 }
 
@@ -416,6 +416,10 @@ html ::-webkit-scrollbar{
 
 .notion-callout .notion-heading{
     text-align: left !important;
+}
+
+.notion-callout.border{
+    margin-bottom: 2rem !important;
 }
 
 //media queries
@@ -501,8 +505,5 @@ html ::-webkit-scrollbar{
 }
 
 @media screen and (max-width:890px){
-    .notion-callout.bg-gray-light{
-
-    }
 }
 
