@@ -192,6 +192,12 @@ p {
   padding-left: 0px !important;
 }
 
+.super-navbar__menu-wrapper {
+  width: auto !important;
+  padding-right: 0px !important;
+  padding-top: 5px !important;
+}
+
 .super-navbar__logo {
   padding: 0px !important;
 }
