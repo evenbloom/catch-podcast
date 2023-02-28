@@ -142,7 +142,9 @@ p {
 }
 
 .super-footer {
-  margin: 0 96px !important;
+  width: calc(100% - 193px) !important;
+  max-width: 1480px !important;
+  margin: 20px auto !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
 }
