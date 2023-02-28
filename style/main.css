@@ -201,6 +201,10 @@ p {
     padding-right: 0 !important;
     padding-top: 30px !important;
 } */
+.super-navbar__menu-open {
+  display: none !important;
+}
+
 .super-navbar__logo {
   padding: 0px !important;
 }
@@ -283,6 +287,9 @@ p {
 @media (max-width: 546px) {
   .super-navbar {
     width: calc(100% - 40px) !important;
+  }
+  .super-navbar__menu-open {
+    display: flex !important;
   }
 }
 .notion-toggle {
