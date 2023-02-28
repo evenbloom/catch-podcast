@@ -53,9 +53,9 @@ function createLightModeIcon() {
     e.appendChild(circle),
     e
 }
-function createThemeSwitch() {
+function createToggleSwitch() {
     var e = document.createElement("div");
-    e.classList.add("theme-switch");
+    e.classList.add("toggle-switch");
     var t = document.createElement("div");
     t.classList.add("dark-mode-icon");
     var r = document.createElement("div");
@@ -66,51 +66,36 @@ function createThemeSwitch() {
     r.appendChild(createLightModeIcon()),
     e
 }
-function addThemeSwitcher() {
-    var e = createThemeSwitch()
+function addToggleSwitcher() {
+    var e = createToggleSwitch()
       , t = document.querySelector(".super-navbar");
-    t ? t.querySelector(".theme-switch") ? console.info("The theme switcher was already added.") : (t.append(e),
+    t ? t.querySelector(".toggle-switch") ? console.info("The theme switcher was already added.") : (t.append(e),
     e.addEventListener("click", toggleThemeMode)) : console.info("You need to add a navbar to the page.")
 }
+
+
 function onPageLoad() {
-    const e = document.querySelector(".notion-header")
-      , t = document.querySelectorAll(".notion-dropdown__option")
-      , r = document.querySelector(".notion-dropdown__button-title")
-      , o = ()=>{
-        const e = document.querySelector(".footer-cover");
-        e && e.remove();
-        const t = document.querySelector(".notion-header__cover").cloneNode(!0);
-        t.classList.add("footer-cover"),
-        t.classList.remove("notion-header__cover", "has-cover"),
-        document.querySelector(".super-content").appendChild(t)
-    }
-    ;
-    o();
-    t && r && ((e,t)=>{
-        Array.from(e).find(e=>e.textContent === t).classList.add("active-filter"),
-        e.forEach(e=>{
-            e.addEventListener("click", ()=>{
-                const t = document.querySelector(".active-filter");
-                t && t.classList.remove("active-filter"),
-                e.classList.add("active-filter")
-            }
-            )
-        }
-        )
-    }
-    )(t, r.textContent);
-    new MutationObserver(function(e, t) {
-        for (const t of e)
-            "characterData" === t.type && o()
-    }
-    ).observe(e, {
-        subtree: !0,
-        characterData: !0
-    })
+   const e = document.querySelector(".notion-header");
+
+  const removeFooterCover = () => {
+    const e = document.querySelector(".footer-cover");
+    e && e.remove();
+  };
+
+  removeFooterCover();
+
+  new MutationObserver(function (e, t) {
+    for (const t of e)
+      "characterData" === t.type && removeFooterCover();
+  }).observe(e, {
+    subtree: !0,
+    characterData: !0,
+  });
 }
-setInitialTheme(),
-window.onload = function() {
-    addThemeSwitcher()
-}
-,
+
+setInitialTheme();
+window.onload = function () {
+  addToggleSwitcher();
+};
+
 document.addEventListener("DOMContentLoaded", onPageLoad);

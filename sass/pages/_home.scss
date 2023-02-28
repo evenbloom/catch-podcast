@@ -276,28 +276,15 @@ tbody.notion-collection-table__body{
 }
 
 
+//Hide scroll bar
 
-::selection{
-    background: var(--color-link-default) !important;
-    opacity: .5 !important;
+html ::-webkit-scrollbar {
+  display: none !important;
 }
 
-html ::-webkit-scrollbar{
-    width: 10px !important;
-    background-color: var(--color-bg-default) !important;
-    border: none !important;
-
-    &-track{
-        background-color: transparent !important;
-        border-radius: 10px !important;
-    }
-
-    &-thumb{
-        background-color: var(--scrollbar-thumb-color) !important;
-        border-radius: 50px !important;
-        border: 4px solid transparent !important;
-    }
-} 
+html ::-webkit-scrollbar-thumb {
+  display: none !important;
+}
 
 
 //callout - About us

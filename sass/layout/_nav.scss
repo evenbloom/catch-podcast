@@ -14,9 +14,11 @@
 }
 
 .super-navbar__menu-wrapper{
-    width: auto !important;
-    padding-right: 0px !important;
-    padding-top: 5px !important;
+     width: calc(100% - 193px) !important;
+    max-width: calc(1680px - 200px) !important;
+    margin: 0 auto !important;
+    padding-right: 0 !important;
+    padding-top: 30px !important;
 }
 
 
@@ -40,6 +42,12 @@
     color: var(--color-text-default) !important;
     background: var(--color-bg-default) !important;
 
+}
+
+//hamburger menu
+
+.super-navbar__menu-close{
+    top: 0 !important;
 }
 
 .theme-switch{
@@ -96,11 +104,7 @@
     stroke: var(--color-text-default) !important;
 }
 
-//hamburger menu
 
-/* .notion-dropdown__menu-header, .notion-dropdown__option-icon, .notion-dropdown__button svg:first-of-type {
-        display: none !important; 
-} */
 
 .notion-dropdown{
     width: 100% !important;
