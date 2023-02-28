@@ -783,6 +783,9 @@ html ::-webkit-scrollbar-thumb {
   .notion-column {
     flex-grow: 1 !important;
   }
+  #page-index .notion-callout.bg-gray-light .notion-column-list {
+    flex-wrap: wrap !important;
+  }
 }
 @media screen and (max-width: 1150px) {
   .notion-collection-gallery.medium {
