@@ -619,13 +619,13 @@ tbody.notion-collection-table__body {
 
 .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
   color: var(--color-cta-text) !important;
-  background: var(--color-cta-background) !important;
-  padding: 0.6rem 1.6rem !important;
+  background: var(--color-callout-background) !important;
+  padding: 0.8rem 1.6rem !important;
   margin: 20px 0px !important;
   font-size: var(--font-size-1) !important;
   letter-spacing: 0.05rem !important;
   border-radius: 50px !important;
-  border: 0.2rem solid var(--color-border-default) !important;
+  border: 1px solid var(--color-border-default) !important;
   opacity: 1 !important;
   font-weight: 600 !important;
   display: inline-flex !important;
@@ -634,6 +634,9 @@ tbody.notion-collection-table__body {
 }
 
 .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link:hover, .notion-root .notion-text .notion-text__content .notion-semantic-string span .notion-link strong:hover {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  transition: 0.2s ease-in-out !important;
   background: transparent !important;
   color: var(--color-text-default) !important;
 }
