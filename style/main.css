@@ -163,7 +163,7 @@ p {
   border-radius: 20px !important;
 }
 
-.super-footer.corners .super-footer__links:hover, .super-footer.floating .super-footer__links:hover {
+.super-footer__link:hover {
   color: var(--color-link-default) !important;
 }
 
