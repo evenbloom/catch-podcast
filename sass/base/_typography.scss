@@ -1,5 +1,5 @@
 //typography rules
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 :root{
     --font-size-1: 1rem;
@@ -11,7 +11,7 @@
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Lexend', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
 }
 
 h1.notion-heading{
