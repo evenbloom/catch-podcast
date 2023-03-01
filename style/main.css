@@ -613,10 +613,6 @@ tbody.notion-collection-table__body {
   opacity: 1 !important;
 }
 
-a:hover {
-  color: var(--color-link-default) !important;
-}
-
 .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
   color: var(--color-cta-text) !important;
   background: var(--color-cta-background) !important;
@@ -633,7 +629,7 @@ a:hover {
   transition: background 0.2s ease-in-out !important;
 }
 
-.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong:hover {
+.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link:hover, .notion-root .notion-text .notion-text__content .notion-semantic-string span .notion-link strong:hover {
   background: transparent !important;
   color: var(--color-text-default) !important;
 }
