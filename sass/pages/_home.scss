@@ -253,6 +253,10 @@ tbody.notion-collection-table__body{
     }
 }
 
+a:hover{
+    color: var(--color-link-default) !important;
+}
+
 .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong{
     color: var(--color-cta-text) !important;
     background: var(--color-cta-background) !important;
