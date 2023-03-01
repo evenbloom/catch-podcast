@@ -167,6 +167,10 @@ p {
   color: var(--color-link-default) !important;
 }
 
+.super-footer__footnote {
+  color: var(--color-text-default) !important;
+}
+
 @media (max-width: 546px) {
   .super-footer {
     width: 100% !important;
