@@ -819,4 +819,10 @@ html ::-webkit-scrollbar-thumb {
   .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
     font-size: var(--font-size-0) !important;
   }
+}
+@media screen and (max-width: 992px) {
+  .notion-column-list {
+    flex-wrap: wrap !important;
+    gap: 1.5rem !important;
+  }
 }/*# sourceMappingURL=main.css.map */

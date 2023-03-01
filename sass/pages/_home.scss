@@ -495,6 +495,10 @@ html ::-webkit-scrollbar-thumb {
     }
 }
 
-@media screen and (max-width:890px){
+@media screen and (max-width:992px){
+    .notion-column-list{
+        flex-wrap: wrap !important;
+        gap: 1.5rem !important;
+    }
 }
 
