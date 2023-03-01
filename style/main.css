@@ -201,10 +201,6 @@ p {
     padding-right: 0 !important;
     padding-top: 30px !important;
 } */
-.super-navbar__menu-open {
-  display: none !important;
-}
-
 .super-navbar__logo {
   padding: 0px !important;
 }
@@ -214,7 +210,7 @@ p {
   cursor: pointer !important;
   align-items: center !important;
   justify-content: center !important;
-  display: flex !important;
+  display: none !important;
   opacity: 0.5 !important;
   transition: opacity 0.3s ease-in-out !important;
 }
@@ -288,7 +284,7 @@ p {
   .super-navbar {
     width: calc(100% - 40px) !important;
   }
-  .super-navbar__menu-open {
+  .super-navbar__button {
     display: flex !important;
   }
 }
