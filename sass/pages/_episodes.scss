@@ -58,3 +58,16 @@
     }
     
 }
+
+@media screen and (max-width:1150px){
+    .parent-page__index {
+
+        .notion-text{
+            width: 100% !important;
+            margin: 0 auto !important;
+        }
+
+        tbody.notion-collection-table__body {
+            flex-direction: column !important;
+    }
+}

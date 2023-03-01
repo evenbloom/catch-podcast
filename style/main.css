@@ -354,6 +354,12 @@ p {
   margin-bottom: 1.5rem !important;
 }
 
+@media screen and (max-width: 1150px) {
+  .parent-page__index .notion-text {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+}
 .super-content.max-width {
   margin: auto !important;
 }
