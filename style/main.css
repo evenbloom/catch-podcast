@@ -157,8 +157,19 @@ p {
   margin: 20px auto !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
+  background: var(--color-callout-background) !important;
+  backdrop-filter: blur(10px) !important;
+  color: var(--color-text-default) !important;
+  border-radius: 20px !important;
 }
 
+@media (max-width: 546px) {
+  .super-footer {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 0px !important;
+  }
+}
 .notion-header__cover.has-cover {
   position: absolute !important;
   width: 100% !important;
@@ -358,6 +369,9 @@ p {
   .parent-page__index .notion-text {
     width: 100% !important;
     margin: 0 auto !important;
+  }
+  .parent-page__index tbody.notion-collection-table__body {
+    flex-direction: column !important;
   }
 }
 .super-content.max-width {
