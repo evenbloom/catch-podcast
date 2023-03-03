@@ -251,6 +251,19 @@ p {
     background: var(--color-bg-default) !important;
 
 } */
+.super-navbar__menu-wrapper {
+  display: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.super-navbar__menu-wrapper.open {
+  display: block !important;
+}
+
+.super-navbar__menu-wrapper.enter-done {
+  display: block !important;
+}
+
 .toggle-switch {
   width: 22px !important;
   height: 22px !important;
