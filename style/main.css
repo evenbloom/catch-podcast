@@ -316,10 +316,6 @@ p {
   .super-navbar__button {
     display: flex !important;
   }
-  .super-navbar__menu-open:checked ~ .super-navbar__menu-item-list {
-    display: block !important;
-    opacity: 1 !important;
-  }
 }
 .notion-toggle {
   border: 1px solid var(--color-border-default) !important;
