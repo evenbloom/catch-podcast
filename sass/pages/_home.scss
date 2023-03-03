@@ -496,6 +496,13 @@ html ::-webkit-scrollbar-thumb {
     .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong{
         font-size: var(--font-size-0) !important;
     }
+
+    .notion-column-list{
+        flex-direction: row !important;
+        flex-basis: 100% !important;
+        flex-wrap: wrap !important;
+        flex: 1 !important;
+    }
 }
 
 @media screen and (max-width:992px){
