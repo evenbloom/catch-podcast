@@ -700,7 +700,7 @@ html ::-webkit-scrollbar-thumb {
 }
 
 .notion-callout {
-  padding: 2rem !important;
+  padding: 24px !important;
   padding-top: 20px !important;
   text-align: left !important;
   border: 1px solid var(--color-border-default) !important;
