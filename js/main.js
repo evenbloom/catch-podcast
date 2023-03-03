@@ -1,4 +1,4 @@
- const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 const isThemeDark = () => localStorage.getItem("theme") === "dark";
 
 function setTheme(theme) {
