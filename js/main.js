@@ -1,12 +1,12 @@
 const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-const isThemeDark = () => sessionStorage.getItem("theme") === "dark";
+const isThemeDark = () => localStorage.getItem("theme") === "dark";
 
 function setTheme(theme) {
   const html = document.querySelector("html");
   html.classList.toggle("theme-default", theme === "light");
   html.classList.toggle("theme-blackout", theme === "dark");
   localStorage.setItem("theme", theme);
-  console.log(`${theme} mode activated.`);
+  console.info(`${theme} mode activated.`);
 }
 
 function toggleThemeMode() {
@@ -66,9 +66,9 @@ function addToggleSwitcher() {
   if (superNavbar) {
     const toggleSwitch = createToggleSwitch();
     superNavbar.appendChild(toggleSwitch);
-    console.log("The theme switcher was added.");
+    console.info("The theme switcher was added.");
   } else {
-    console.log("You need to add a super navbar to the page.");
+    console.info("You need to add a super navbar to the page.");
   }
 }
 
