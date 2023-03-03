@@ -298,7 +298,8 @@ html ::-webkit-scrollbar-thumb {
     color: var(--color-text-default) !important;
 
     .notion-column-list{
-        flex-wrap: wrap !important;
+        flex-wrap: nowrap !important;
+        gap: 3rem !important;
     }
 }
 
@@ -340,7 +341,7 @@ html ::-webkit-scrollbar-thumb {
 
 //callouts--Reviews
 .notion-callout{
-    padding: 24px !important;
+    padding: 25px !important;
     padding-top: 20px !important;
     text-align: left !important;
     border: 1px solid var(--color-border-default) !important;
@@ -348,6 +349,10 @@ html ::-webkit-scrollbar-thumb {
     border-radius: 20px !important;
     margin-bottom: 24px !important;
     font-size: var(--font-size-1) !important;
+
+    .notion-column-list{
+        flex-wrap: wrap !important;
+    }
 
 }
 
@@ -364,6 +369,7 @@ html ::-webkit-scrollbar-thumb {
 
 .notion-callout .notion-column-list{
     align-items: center !important;
+    gap: 20px !important;
 }
 
 #page-index .notion-callout .notion-callout__icon{
