@@ -478,12 +478,6 @@ html ::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 1090px){
-    .notion-callout .notion-column-list{
-        flex-wrap: wrap !important;
-    }
-    .notion-column{
-        flex-grow: 1 !important;
-    }
     #page-index .notion-callout.bg-gray-light .notion-column-list{
         flex-wrap: wrap !important;
     }
