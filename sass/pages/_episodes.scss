@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (max-width:863px){
+@media (max-width:863px){
     .notion-collection-gallery.small{
         grid-template-columns: repeat(1, 1fr) !important;
     }
