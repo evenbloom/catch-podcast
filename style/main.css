@@ -150,7 +150,7 @@ p {
   }
   p {
     font-size: var(--font-size-0) !important;
-    color: var(--color-paragraph-default) !important;
+    color: var(--color-paragarph-default) !important;
   }
 }
 .super-footer {
@@ -615,6 +615,7 @@ tbody.notion-collection-table__body {
 
 .notion-column {
   margin: 0px !important;
+  flex-grow: 1 !important;
 }
 
 .caption-dash {
