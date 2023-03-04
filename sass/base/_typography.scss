@@ -8,7 +8,7 @@
     --font-size-3: 2rem;
     --font-size-4: 2.5rem;
     --font-size-5: 3rem;
-    --font-size-6: 4rem;
+    --font-size-6: 4.5rem;
     --font-size-7: 5.5rem;
 }
 
@@ -17,10 +17,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1.notion-heading{
-    font-size: var(--font-size-7) !important;
+    font-size: var(--font-size-6) !important;
     font-weight: 500 !important;
     line-height: 1em !important;
-    padding-bottom: 1rem !important;
     margin-bottom: 1rem !important;
 }
 

@@ -103,7 +103,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --font-size-3: 2rem;
   --font-size-4: 2.5rem;
   --font-size-5: 3rem;
-  --font-size-6: 4rem;
+  --font-size-6: 4.5rem;
   --font-size-7: 5.5rem;
 }
 
@@ -112,10 +112,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.notion-heading {
-  font-size: var(--font-size-7) !important;
+  font-size: var(--font-size-6) !important;
   font-weight: 500 !important;
   line-height: 1em !important;
-  padding-bottom: 1rem !important;
   margin-bottom: 1rem !important;
 }
 
@@ -632,7 +631,7 @@ tbody.notion-collection-table__body {
   border-radius: 50px !important;
   border: 1px solid var(--color-border-default) !important;
   opacity: 1 !important;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   display: inline-flex !important;
   justify-content: center !important;
   transition: background 0.2s ease-in-out !important;
@@ -754,10 +753,6 @@ html ::-webkit-scrollbar-thumb {
 
 .notion-callout .notion-column .notion-text__content {
   padding: 0 !important;
-}
-
-.notion-callout .notion-column .notion-text {
-  min-height: auto !important;
 }
 
 .notion-callout .notion-heading {
