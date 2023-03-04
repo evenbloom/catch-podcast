@@ -23,7 +23,7 @@
   --color-border-default: hsla(0, 0%, 62%, 0.3) !important;
   --color-box-shadow: rgba(30,88,255,.05) 0 10px 20px 0!important;
   --color-bg-transparent-default: rgb(0, 0, 0, 0) !important;
-  --color-paragarph-default: rgb(112, 117, 134) !important;
+  --color-paragarph-default: rgb(85 91 112) !important;
   --color-text-default: rgb(32, 32, 32) !important;
   --color-date-default: rgb(178, 178, 178) !important;
   --color-link-default: rgb(149, 75, 54) !important;
@@ -142,6 +142,7 @@ h3.notion-heading {
 
 p {
   font-size: var(--font-size-1) !important;
+  color: var(--color-paragarph-default) !important;
 }
 
 @media screen and (max-width: 1288px) {
@@ -150,7 +151,6 @@ p {
   }
   p {
     font-size: var(--font-size-0) !important;
-    color: var(--color-paragarph-default) !important;
   }
 }
 .super-footer {
