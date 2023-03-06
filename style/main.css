@@ -722,6 +722,9 @@ html ::-webkit-scrollbar-thumb {
   width: auto !important;
   height: auto !important;
 }
+#page-index .notion-callout.bg-orange-light .notion-callout__content .notion-image img {
+  border-radius: 0 !important;
+}
 
 #page-index .notion-callout.bg-orange-light:hover {
   box-shadow: none !important;
