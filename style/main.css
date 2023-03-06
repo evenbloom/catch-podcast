@@ -160,7 +160,7 @@ h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
 h2.notion-heading {
   font-size: var(--font-size-5) !important;
   /* text-align: center !important; */
-  line-height: 1.3 !important;
+  line-height: 1.1 !important;
   margin-bottom: 1.5rem !important;
   font-weight: 500 !important;
 }
