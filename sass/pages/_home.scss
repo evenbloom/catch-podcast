@@ -479,6 +479,10 @@ html ::-webkit-scrollbar-thumb {
         width: 100% !important;
         margin-inline-start: 0 !important;
     }
+
+    #page-index .notion-callout.bg-gray-light .notion-callout__content{
+        width: 100% !important;
+    }
     
 }
 
