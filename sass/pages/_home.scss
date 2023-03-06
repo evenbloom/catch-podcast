@@ -290,10 +290,10 @@ html ::-webkit-scrollbar-thumb {
 }
 
 //callout - Subscribe
-#page-index .notion-callout .bg-orange-light{
-    padding: 0 !important;
-    margin: 0 !important;
-    background: none !important;
+#page-index .notion-callout.bg-orange-light{
+    padding: 0px !important;
+    margin: 0px !important;
+    background: transparent !important;
     border: none !important;
 
     .notion-callout__content{

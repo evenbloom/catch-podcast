@@ -669,13 +669,13 @@ html ::-webkit-scrollbar-thumb {
   display: none !important;
 }
 
-#page-index .notion-callout .bg-orange-light {
-  padding: 0 !important;
-  margin: 0 !important;
-  background: none !important;
+#page-index .notion-callout.bg-orange-light {
+  padding: 0px !important;
+  margin: 0px !important;
+  background: transparent !important;
   border: none !important;
 }
-#page-index .notion-callout .bg-orange-light .notion-callout__content {
+#page-index .notion-callout.bg-orange-light .notion-callout__content {
   max-width: 800px !important;
   display: flex !important;
   flex-wrap: wrap !important;
@@ -683,7 +683,7 @@ html ::-webkit-scrollbar-thumb {
   margin: 0 auto !important;
   gap: 3rem !important;
 }
-#page-index .notion-callout .bg-orange-light .notion-callout__content .notion-image {
+#page-index .notion-callout.bg-orange-light .notion-callout__content .notion-image {
   max-width: 180px !important;
   padding: 5px 16px !important;
   border-radius: 0px !important;
