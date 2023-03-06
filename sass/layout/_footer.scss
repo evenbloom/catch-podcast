@@ -12,12 +12,12 @@
 }
 
 //links on hover
-.super-footer__link:hover{
+.super-footer.floating .super-footer__links a.super-footer__link:hover p{
     color: var(--color-link-default) !important;
 }
 
 .super-footer__footnote{
-    color: var(--color-text-default) !important;
+    color: var(--color-paragraph-default) !important;
 }
 
 @media (max-width: 546px){
