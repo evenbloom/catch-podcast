@@ -16,6 +16,14 @@
 .super-navbar .super-navbar__content .super-navbar__item-list .super-navbar__item{
     text-transform: uppercase !important;
     font-family: "ClashGrotesk-Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    letter-spacing: 0.102rem !important;
+}
+
+.super-navbar__cta{
+    text-transform: uppercase !important;
+    font-family: "ClashGrotesk-Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    background: var(--color-cta-background) !important;
+
 }
 
 /* .super-navbar__menu-wrapper{
