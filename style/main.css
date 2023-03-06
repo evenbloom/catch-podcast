@@ -141,7 +141,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "ClashDisplay-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "ClashGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 
 h1.notion-heading {
@@ -152,7 +152,7 @@ h1.notion-heading {
 }
 
 h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
-  font-family: "ClashDisplay-Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "ClashGrotesk-Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
   font-weight: 700 !important;
   line-height: 1 !important;
 }
