@@ -68,16 +68,20 @@
 
         tbody.notion-collection-table__body {
             flex-direction: column !important;
-    }
+        }
+
+        .notion-collection-gallery.small{
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
     }
 
-    .notion-collection-gallery.small{
-        grid-template-columns: repeat(2, 1fr) !important;
-    }
+    
 }
 
-@media (max-width:863px){
-    .notion-collection-gallery.small{
-        grid-template-columns: repeat(1, 1fr) !important;
+@media (max-width: 863px){
+    .parent-page__index {
+        .notion-collection-gallery.small{
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
     }
 }
