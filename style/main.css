@@ -670,14 +670,24 @@ html ::-webkit-scrollbar-thumb {
 }
 
 #page-index .notion-callout.bg-gray-light {
+  width: 100vw !important;
+  margin-left: -50vw !important;
+  left: 50% !important;
+  position: relative !important;
   background: var(--color-callout-background) !important;
   backdrop-filter: blur(10px) !important;
   transition: box-shadow 0.2s ease-out !important;
   color: var(--color-text-default) !important;
+  border-radius: 0 !important;
 }
-#page-index .notion-callout.bg-gray-light .notion-column-list {
+#page-index .notion-callout.bg-gray-light .notion-callout__content {
+  max-width: 1480px !important;
+  margin: 20px auto !important;
+  width: calc(100% - 193px) !important;
+}
+#page-index .notion-callout.bg-gray-light .notion-callout__content .notion-column-list {
   flex-wrap: nowrap !important;
-  gap: 3rem !important;
+  gap: 4rem !important;
 }
 
 #page-index .notion-callout.bg-gray-light:hover {
