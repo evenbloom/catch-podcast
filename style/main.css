@@ -538,13 +538,16 @@ tbody.notion-collection-table__body {
   display: inline !important;
 }
 
+.notion-property__title {
+  font-family: "ClashGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
 .notion-collection-table td:nth-child(2) {
   font-size: 1.5rem !important;
   letter-spacing: 0.102rem !important;
   margin-top: 1.5rem !important;
   margin-bottom: 0.5rem !important;
   font-weight: 500 !important;
-  font-family: "ClashGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 
 .notion-collection-table td:last-child, .notion-collection-table th:last-child {
