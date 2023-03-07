@@ -817,7 +817,7 @@ html ::-webkit-scrollbar-thumb {
   width: unset !important;
 }
 
-#page-index .notion-callout.green-light {
+#page-index .notion-callout.bg-green-light {
   background: transparent !important;
 }
 
@@ -962,11 +962,11 @@ html ::-webkit-scrollbar-thumb {
   }
 }
 @media screen and (max-width: 992px) {
-  .notion-callout.green-light .notion-column-list {
+  .notion-callout.bg-green-light .notion-column-list {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
   }
-  .notion-callout.green-light .notion-column-list .notion-column {
+  .notion-callout.bg-green-light .notion-column-list .notion-column {
     width: 100% !important;
   }
 }/*# sourceMappingURL=main.css.map */

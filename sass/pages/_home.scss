@@ -390,7 +390,7 @@ html ::-webkit-scrollbar-thumb {
 
 //callouts-Reviews
 
-#page-index .notion-callout.green-light {
+#page-index .notion-callout.bg-green-light {
     background: transparent !important;
 }
 
@@ -562,7 +562,7 @@ html ::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width:992px){
-    .notion-callout.green-light {
+    .notion-callout.bg-green-light {
         .notion-column-list{
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
