@@ -685,6 +685,7 @@ tbody.notion-collection-table__body {
   color: var(--color-text-default) !important;
   background: var(--color-callout-background) !important;
   padding: 0.8rem 1.6rem !important;
+  font-family: "ClashGrotesk-Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
   margin: 20px 0px !important;
   font-size: var(--font-size-1) !important;
   letter-spacing: 0.05rem !important;
