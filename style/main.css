@@ -819,9 +819,6 @@ html ::-webkit-scrollbar-thumb {
 .notion-callout .notion-column-list {
   flex-wrap: wrap !important;
 }
-.notion-callout .notion-column-list .notion-column:first-child {
-  max-width: fit-content !important;
-}
 
 #page-index .notion-callout {
   overflow: visible !important;
