@@ -559,7 +559,10 @@ html ::-webkit-scrollbar-thumb {
         grid-template-columns: 1fr !important;
     }
 
-    .notion-callout.bg-green-light {
+    #page-index .notion-callout.bg-green-light {
+        padding: 0 !important;
+        margin: 0 !important;
+        
         .notion-column-list{
         display: grid !important;
         grid-template-columns: 1fr !important;

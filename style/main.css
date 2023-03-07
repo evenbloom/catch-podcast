@@ -959,7 +959,11 @@ html ::-webkit-scrollbar-thumb {
     padding: 2rem !important;
     grid-template-columns: 1fr !important;
   }
-  .notion-callout.bg-green-light .notion-column-list {
+  #page-index .notion-callout.bg-green-light {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #page-index .notion-callout.bg-green-light .notion-column-list {
     display: grid !important;
     grid-template-columns: 1fr !important;
   }
