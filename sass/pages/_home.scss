@@ -401,6 +401,10 @@ html ::-webkit-scrollbar-thumb {
 
     .notion-column-list{
         flex-wrap: wrap !important;
+
+        .notion-column:first-child{
+            max-width: fit-content !important;
+        }
     }
 
 }
