@@ -51,8 +51,7 @@
         margin: 0 auto !important;
     }
     .notion-heading{
-        margin-left: auto !important;
-        margin-right: auto !important;
+        width: 80% !important;
         margin-bottom: 1.5rem !important;
     }
     
@@ -64,6 +63,9 @@
         .notion-text{
             width: 100% !important;
             margin: 0 auto !important;
+        }
+        .notion-heading{
+            width: 100% !important;
         }
 
         tbody.notion-collection-table__body {

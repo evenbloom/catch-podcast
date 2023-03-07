@@ -435,8 +435,7 @@ p, p.notion-text__content {
   margin: 0 auto !important;
 }
 .parent-page__index .notion-heading {
-  margin-left: auto !important;
-  margin-right: auto !important;
+  width: 80% !important;
   margin-bottom: 1.5rem !important;
 }
 
@@ -444,6 +443,9 @@ p, p.notion-text__content {
   .parent-page__index .notion-text {
     width: 100% !important;
     margin: 0 auto !important;
+  }
+  .parent-page__index .notion-heading {
+    width: 100% !important;
   }
   .parent-page__index tbody.notion-collection-table__body {
     flex-direction: column !important;
