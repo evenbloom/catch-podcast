@@ -820,12 +820,20 @@ html ::-webkit-scrollbar-thumb {
 #page-index .notion-callout.bg-green-light {
   background: transparent !important;
   border: none !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+#page-index .notion-callout.bg-green-light .notion-column-list {
+  align-items: flex-start !important;
+  gap: 24px !important;
 }
 
 #page-index .notion-callout.bg-green-light:hover {
   box-shadow: none !important;
   border: none !important;
   transform: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .notion-callout {
@@ -888,10 +896,6 @@ html ::-webkit-scrollbar-thumb {
 
 .notion-callout .notion-heading {
   text-align: left !important;
-}
-
-.notion-callout.border {
-  margin-bottom: 2rem !important;
 }
 
 @media (max-width: 680px) {
