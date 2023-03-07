@@ -941,7 +941,8 @@ html ::-webkit-scrollbar-thumb {
   }
 }
 @media screen and (max-width: 992px) {
-  .notion-column {
-    flex-grow: 1 !important;
+  .notion-callout.border .notion-column-list {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
   }
 }/*# sourceMappingURL=main.css.map */
