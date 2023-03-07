@@ -399,6 +399,10 @@ html ::-webkit-scrollbar-thumb {
     .notion-column-list{
        align-items: flex-start !important;
        gap: 24px !important;
+
+       .notion-column{
+        flex-grow: 0 !important;
+       }
     }
 
 }
@@ -548,6 +552,14 @@ html ::-webkit-scrollbar-thumb {
     .notion-collection-table tr{
         padding: 2rem !important;
         grid-template-columns: 1fr !important;
+    }
+
+    .notion-callout.bg-green-light {
+        .notion-column-list{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    
+        }
     }
 
 }

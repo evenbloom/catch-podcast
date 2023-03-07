@@ -827,6 +827,9 @@ html ::-webkit-scrollbar-thumb {
   align-items: flex-start !important;
   gap: 24px !important;
 }
+#page-index .notion-callout.bg-green-light .notion-column-list .notion-column {
+  flex-grow: 0 !important;
+}
 
 #page-index .notion-callout.bg-green-light:hover {
   box-shadow: none !important;
@@ -950,6 +953,10 @@ html ::-webkit-scrollbar-thumb {
   }
   .notion-collection-table tr {
     padding: 2rem !important;
+    grid-template-columns: 1fr !important;
+  }
+  .notion-callout.bg-green-light .notion-column-list {
+    display: grid !important;
     grid-template-columns: 1fr !important;
   }
 }
