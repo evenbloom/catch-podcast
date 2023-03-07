@@ -817,6 +817,16 @@ html ::-webkit-scrollbar-thumb {
   width: unset !important;
 }
 
+#page-index .notion-callout.green-light {
+  background: transparent !important;
+}
+
+#page-index .notion-callout.bg-green-light:hover {
+  box-shadow: none !important;
+  border: none !important;
+  transform: none !important;
+}
+
 .notion-callout {
   padding: 25px !important;
   padding-top: 20px !important;
@@ -952,11 +962,11 @@ html ::-webkit-scrollbar-thumb {
   }
 }
 @media screen and (max-width: 992px) {
-  .notion-callout.border .notion-column-list {
+  .notion-callout.green-light .notion-column-list {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
   }
-  .notion-callout.border .notion-column-list .notion-column {
+  .notion-callout.green-light .notion-column-list .notion-column {
     width: 100% !important;
   }
 }/*# sourceMappingURL=main.css.map */
