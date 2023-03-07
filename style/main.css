@@ -934,6 +934,9 @@ html ::-webkit-scrollbar-thumb {
   h1.notion-heading {
     font-size: var(--font-size-4) !important;
   }
+  h2.notion-heading {
+    font-size: var(--font-size-3) !important;
+  }
   h3.notion-heading {
     font-size: var(--font-size-2) !important;
   }
