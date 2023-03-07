@@ -562,7 +562,7 @@ html ::-webkit-scrollbar-thumb {
     #page-index .notion-callout.bg-green-light {
         padding: 0 !important;
         margin: 0 !important;
-        
+
         .notion-column-list{
         display: grid !important;
         grid-template-columns: 1fr !important;
@@ -575,6 +575,18 @@ html ::-webkit-scrollbar-thumb {
 @media screen and (max-width: 1090px){
     #page-index .notion-callout.bg-gray-light .notion-column-list{
         flex-wrap: wrap !important;
+    }
+
+    h1.notion-heading{
+        font-size: var(--font-size-4) !important;
+    }
+
+    h2.notion-heading{
+        font-size: var(--font-size-3) !important;
+    }
+
+    h3.notion-heading{
+        font-size: var(--font-size-2) !important;
     }
 }
 
