@@ -204,6 +204,16 @@ p, p.notion-text__content {
   border-radius: 20px !important;
 }
 
+.super-footer.floating .super-footer__links a.super-footer__link {
+  font-size: 0.9rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.102rem !important;
+  font-family: "ClashGrotesk-Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  padding: 0 !important;
+  display: flex !important;
+  gap: 2rem !important;
+}
+
 .super-footer.floating .super-footer__links a.super-footer__link:hover p {
   color: var(--color-link-default) !important;
 }
