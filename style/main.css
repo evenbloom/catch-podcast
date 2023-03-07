@@ -945,4 +945,7 @@ html ::-webkit-scrollbar-thumb {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
   }
+  .notion-callout.border .notion-column-list .notion-column {
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=main.css.map */
