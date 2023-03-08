@@ -405,7 +405,8 @@ html ::-webkit-scrollbar-thumb {
        gap: 24px !important;
 
        .notion-column{
-        flex-grow: 0 !important;
+        flex-grow: 1 !important;
+        max-width: fit-content !important;
        }
     }
 

@@ -836,7 +836,8 @@ html ::-webkit-scrollbar-thumb {
   gap: 24px !important;
 }
 #page-index .notion-callout.bg-green-light .notion-column-list .notion-column {
-  flex-grow: 0 !important;
+  flex-grow: 1 !important;
+  max-width: fit-content !important;
 }
 
 #page-index .notion-callout.bg-green-light:hover {
