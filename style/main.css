@@ -475,6 +475,10 @@ p, p.notion-text__content {
   max-width: 1680px !important;
 }
 
+.notion-text {
+  min-height: 6rem !important;
+}
+
 .notion-heading .notion-semantic-string {
   line-height: 1 !important;
 }

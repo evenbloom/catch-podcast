@@ -3,7 +3,7 @@
     max-width: 1680px !important;
     margin: 0 auto !important;
     display: flex !important;
-    
+
 }
 
 .super-content.max-width{
@@ -14,6 +14,9 @@
     max-width: 1680px !important;
 }
 
+.notion-text{
+    min-height: 6rem !important;
+}
 .notion-heading .notion-semantic-string{
     line-height: 1 !important;
 }
