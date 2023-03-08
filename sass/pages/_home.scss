@@ -451,6 +451,10 @@ html ::-webkit-scrollbar-thumb {
     gap: 20px !important;
 }
 
+.notion-callout.border{
+    height: 100% !important;
+}
+
 #page-index .notion-callout .notion-callout__icon{
     display: none !important;
 }
@@ -606,11 +610,13 @@ html ::-webkit-scrollbar-thumb {
 @media screen and (max-width:992px){
     .notion-callout.bg-green-light {
         .notion-column-list{
-        display: grid !important;
-        grid-template-columns: 1fr 1fr !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 20px !important;
 
             .notion-column{
-                width: 100% !important;
+                flex-basis: calc(50% - 20px) !important;
+                flex-grow: 1 !important;
             }
         }
     }
