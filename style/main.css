@@ -479,6 +479,10 @@ p, p.notion-text__content {
   min-height: auto !important;
 }
 
+.notion-text p {
+  margin-bottom: 12px !important;
+}
+
 .notion-heading .notion-semantic-string {
   line-height: 1 !important;
 }
