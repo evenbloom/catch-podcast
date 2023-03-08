@@ -461,6 +461,12 @@ p, p.notion-text__content {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
+.super-content {
+  max-width: 1680px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+}
+
 .super-content.max-width {
   margin: auto !important;
 }
