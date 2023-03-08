@@ -483,6 +483,10 @@ p, p.notion-text__content {
   margin-bottom: 12px !important;
 }
 
+.notion-callout .notion-text p {
+  margin-bottom: 0px !important;
+}
+
 .notion-heading .notion-semantic-string {
   line-height: 1 !important;
 }
