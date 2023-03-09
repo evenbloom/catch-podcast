@@ -922,10 +922,9 @@ html ::-webkit-scrollbar-thumb {
   border-radius: 50% !important;
 }
 
-.notion-callout .notion-column-list .notion-image img {
-  width: 55px !important;
-}
-
+/* .notion-callout .notion-column-list .notion-image img{
+    width: 55px !important;
+} */
 .notion-callout__content {
   overflow: visible !important;
 }
