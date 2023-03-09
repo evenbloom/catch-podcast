@@ -877,6 +877,7 @@ html ::-webkit-scrollbar-thumb {
   font-size: var(--font-size-1) !important;
 }
 .notion-callout .notion-column-list {
+  align-items: center !important;
   flex-wrap: wrap !important;
 }
 
