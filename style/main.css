@@ -501,10 +501,6 @@ p, p.notion-text__content {
   text-transform: uppercase !important;
 }
 
-.notion-image.page-width img {
-  border-radius: 5px !important;
-}
-
 thead.notion-collection-table__head {
   border: none !important;
   display: none !important;
@@ -919,6 +915,10 @@ html ::-webkit-scrollbar-thumb {
 }
 
 .notion-image.normal img {
+  border-radius: 50% !important;
+}
+
+.notion-image.page-width img {
   border-radius: 50% !important;
 }
 

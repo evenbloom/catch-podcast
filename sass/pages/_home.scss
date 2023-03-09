@@ -42,10 +42,6 @@
     text-transform: uppercase !important;
 }
 
-.notion-image.page-width img{
-    border-radius: 5px !important;
-}
-
 //table
 
 thead.notion-collection-table__head{
@@ -500,6 +496,10 @@ html ::-webkit-scrollbar-thumb {
 }
 
 .notion-image.normal img{
+    border-radius: 50% !important;
+}
+
+.notion-image.page-width img{
     border-radius: 50% !important;
 }
 
