@@ -586,11 +586,11 @@ tbody.notion-collection-table__body {
   overflow: inherit !important;
 }
 
-.notion-property.notion-property__file.property-63756178 a div {
+.notion-property.notion-property__file a div {
   width: 100% !important;
   height: 300px !important;
 }
-.notion-property.notion-property__file.property-63756178 a div img {
+.notion-property.notion-property__file a div img {
   border-radius: 8px !important;
   object-fit: cover !important;
 }
