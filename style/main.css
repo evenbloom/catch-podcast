@@ -438,7 +438,7 @@ p, p.notion-text__content {
 .parent-page__index .notion-heading {
   width: 80% !important;
   margin: 3rem auto !important;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 @media screen and (max-width: 1150px) {
