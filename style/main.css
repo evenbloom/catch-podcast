@@ -914,6 +914,7 @@ html ::-webkit-scrollbar-thumb {
 }
 
 .notion-callout .notion-column-list .notion-image {
+  width: 55px;
   border-radius: 10px !important;
 }
 
