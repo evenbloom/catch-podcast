@@ -498,6 +498,10 @@ html ::-webkit-scrollbar-thumb {
     border-radius: 10px !important;
 }
 
+.notion-image.normal img{
+    border-radius: 50% !important;
+}
+
 .notion-callout .notion-column-list .notion-image img{
     width: 55px !important;
 }
