@@ -596,7 +596,7 @@ tbody.notion-collection-table__body {
 }
 
 .notion-pill {
-  background: var(--color-callout-background) !important;
+  background: var(--color-link-default) !important;
   color: var(--color-cta-text) !important;
 }
 
