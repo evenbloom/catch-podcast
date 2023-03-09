@@ -140,6 +140,11 @@ tbody.notion-collection-table__body{
     }
 }
 
+.notion-pill{
+    background: var(--color-callout-background) !important;
+    color: var(--color-cta-text) !important;
+}
+
 /* .notion-collection-table__cell:nth-child(1){
     margin-top: -6rem !important;
 } */
