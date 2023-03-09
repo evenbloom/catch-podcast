@@ -584,7 +584,7 @@ tbody.notion-collection-table__body {
 
 .notion-property.notion-property__file a div {
   width: 100% !important;
-  height: 300px !important;
+  height: 600px !important;
 }
 .notion-property.notion-property__file a div img {
   border-radius: 8px !important;
@@ -1018,6 +1018,9 @@ html ::-webkit-scrollbar-thumb {
   }
 }
 @media screen and (max-width: 1150px) {
+  .notion-property.notion-property__file a div {
+    height: 300px !important;
+  }
   h1.notion-heading {
     font-size: var(--font-size-4) !important;
   }
