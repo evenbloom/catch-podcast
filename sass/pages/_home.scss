@@ -321,7 +321,7 @@ html ::-webkit-scrollbar-thumb {
 }
 
 //callout - Subscribe
-#page-index .notion-callout.bg-orange-light{
+.notion-callout.bg-orange-light{
     padding: 0px !important;
     margin: 0px !important;
     background: transparent !important;
@@ -349,7 +349,7 @@ html ::-webkit-scrollbar-thumb {
     }
 }
 
-#page-index .notion-callout.bg-orange-light:hover{
+.notion-callout.bg-orange-light:hover{
     box-shadow: none !important;
     border: none !important;
     transform: none !important;
@@ -358,7 +358,7 @@ html ::-webkit-scrollbar-thumb {
 
 //callout - About us
 
-#page-index .notion-callout.bg-gray-light{
+.notion-callout.bg-gray-light{
     width: 100vw !important;
     margin-left: -50vw !important;
     left: 50% !important;
@@ -381,19 +381,19 @@ html ::-webkit-scrollbar-thumb {
     }
 }
 
-#page-index .notion-callout.bg-gray-light:hover{
+.notion-callout.bg-gray-light:hover{
     box-shadow: none !important;
     border: 1px solid var(--color-border-default) !important;
     transform: none !important;
 }
 
-#page-index .notion-callout.bg-gray-light .notion-image{
+.notion-callout.bg-gray-light .notion-image{
     width: 100% !important;
     height: 100% !important;
     border-radius: 10px !important;
 }
 
-#page-index .notion-callout.bg-gray-light .notion-image img{
+.notion-callout.bg-gray-light .notion-image img{
     border-radius: 10px !important;
     object-fit: cover !important;
 }
@@ -419,7 +419,7 @@ html ::-webkit-scrollbar-thumb {
 
 //callouts-Reviews
 
-#page-index .notion-callout.bg-green-light {
+.notion-callout.bg-green-light {
     background: transparent !important;
     border: none !important;
     padding: 0px !important;
@@ -437,7 +437,7 @@ html ::-webkit-scrollbar-thumb {
 
 }
 
-#page-index .notion-callout.bg-green-light:hover{
+.notion-callout.bg-green-light:hover{
     box-shadow: none !important;
     border: none !important;
     transform: none !important;
@@ -462,11 +462,11 @@ html ::-webkit-scrollbar-thumb {
 
 }
 
-#page-index .notion-callout{
+.notion-callout{
     overflow: visible !important;
 }
 
-#page-index .notion-callout:hover{
+.notion-callout:hover{
     box-shadow: var(--color-box-shadow) !important;
     border: 1px solid transparent !important;
     transform: translateY(-2px) !important;
@@ -482,7 +482,7 @@ html ::-webkit-scrollbar-thumb {
     height: 100% !important;
 }
 
-#page-index .notion-callout .notion-callout__icon{
+.notion-callout .notion-callout__icon{
     display: none !important;
 }
 
@@ -543,11 +543,11 @@ html ::-webkit-scrollbar-thumb {
         margin-inline-start: 0 !important;
     }
 
-    #page-index .notion-callout.bg-gray-light .notion-callout__content{
+    .notion-callout.bg-gray-light .notion-callout__content{
         width: 100% !important;
     }
 
-    #page-index .notion-callout.bg-green-light {
+    .notion-callout.bg-green-light {
         padding: 0 !important;
         margin: 0 !important;
 
@@ -607,7 +607,7 @@ html ::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 1090px){
-    #page-index .notion-callout.bg-gray-light .notion-column-list{
+    .notion-callout.bg-gray-light .notion-column-list{
         flex-wrap: wrap !important;
     }
 
