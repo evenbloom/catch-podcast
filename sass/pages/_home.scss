@@ -425,15 +425,18 @@ html ::-webkit-scrollbar-thumb {
        align-items: flex-start !important;
        gap: 24px !important;
 
-       .notion-column:first-child{
-        max-width: fit-content !important;
-       }
        .notion-column{
         flex-grow: 1 !important;
-       }
     }
+}
 
 }
+
+.notion-callout.bg-green-light .notion-column-list .notion-column:first-child{
+    max-width: fit-content !important;
+}
+
+
 
 .notion-callout.bg-green-light:hover{
     box-shadow: none !important;
