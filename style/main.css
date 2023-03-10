@@ -448,8 +448,15 @@ p, p.notion-text__content {
   width: 80% !important;
   margin: 0 auto !important;
 }
-.parent-page__index .notion-callout {
-  width: 80% !important;
+.parent-page__index .notion-callout.bg-gray-light {
+  width: auto !important;
+  border-radius: 20px !important;
+  margin: 0 auto !important;
+}
+.parent-page__index .notion-callout.bg-gray-light .notion-callout__content {
+  max-width: 90% !important;
+  margin: 20px auto !important;
+  width: 90% !important;
 }
 .parent-page__index .notion-collection-table__wrapper {
   width: 80% !important;

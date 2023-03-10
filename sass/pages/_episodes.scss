@@ -61,8 +61,15 @@
         margin: 0 auto !important;
     }
 
-    .notion-callout{
-        width: 80% !important;
+    .notion-callout.bg-gray-light{
+        width: auto !important;
+        border-radius: 20px !important;
+        margin: 0 auto !important;
+        .notion-callout__content{
+            max-width: 90% !important;
+            margin: 20px auto !important;
+            width: 90% !important;
+        }
     }
 
     .notion-collection-table__wrapper{
