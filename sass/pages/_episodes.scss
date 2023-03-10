@@ -63,6 +63,12 @@
 
     .notion-bulleted-list{
         width: 80% !important;
+        margin: 0 auto;
+    }
+
+    .notion-code pre{
+        width: 80% !important;
+        margin: 0 auto !important;
     }
 
     .notion-callout.bg-gray-light{
