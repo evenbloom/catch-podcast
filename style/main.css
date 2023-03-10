@@ -444,6 +444,17 @@ p, p.notion-text__content {
   margin: 3rem auto !important;
   margin-bottom: 0.5rem !important;
 }
+.parent-page__index .notion-collection-gallery {
+  width: 80% !important;
+  margin: 0 auto !important;
+}
+.parent-page__index .notion-callout {
+  width: 80% !important;
+}
+.parent-page__index .notion-collection-table__wrapper {
+  width: 80% !important;
+  margin: 0 auto !important;
+}
 
 @media screen and (max-width: 1150px) {
   .parent-page__index .notion-text {
