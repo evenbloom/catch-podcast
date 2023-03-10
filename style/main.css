@@ -439,6 +439,9 @@ p, p.notion-text__content {
   width: 80% !important;
   margin: 0 auto !important;
 }
+.parent-page__index h2.notion-heading {
+  font-size: 3.5rem !important;
+}
 .parent-page__index .notion-heading {
   width: 80% !important;
   margin: 1.5rem auto !important;
