@@ -331,6 +331,10 @@ html ::-webkit-scrollbar-thumb {
         margin: 0 auto !important;
         gap: 3rem !important;
 
+        .notion-column-list{
+            align-items: flex-start !important;
+        }
+
         .notion-image{
             max-width: 180px !important;
             padding: 5px 16px !important;
