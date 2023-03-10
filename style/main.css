@@ -874,9 +874,11 @@ html ::-webkit-scrollbar-thumb {
   align-items: flex-start !important;
   gap: 24px !important;
 }
+.notion-callout.bg-green-light .notion-column-list .notion-column:first-child {
+  max-width: fit-content !important;
+}
 .notion-callout.bg-green-light .notion-column-list .notion-column {
   flex-grow: 1 !important;
-  max-width: fit-content !important;
 }
 
 .notion-callout.bg-green-light:hover {
