@@ -483,6 +483,18 @@ p, p.notion-text__content {
   .parent-page__index .notion-heading {
     width: 100% !important;
   }
+  .parent-page__index .notion-collection-gallery {
+    width: 100% !important;
+  }
+  .parent-page__index .notion-bulleted-list {
+    width: 100% !important;
+  }
+  .parent-page__index .notion-code pre {
+    width: 100% !important;
+  }
+  .parent-page__index .notion-collection-table__wrapper {
+    width: 100% !important;
+  }
   .parent-page__index tbody.notion-collection-table__body {
     flex-direction: column !important;
   }
