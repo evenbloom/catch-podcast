@@ -452,6 +452,7 @@ p, p.notion-text__content {
   width: auto !important;
   border-radius: 20px !important;
   margin: 0 auto !important;
+  left: 0 !important;
 }
 .parent-page__index .notion-callout.bg-gray-light .notion-callout__content {
   max-width: 90% !important;
