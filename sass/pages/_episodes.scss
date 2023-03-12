@@ -64,7 +64,7 @@
     .notion-bulleted-list{
         width: 80% !important;
         margin: 0 auto;
-        font-size: 1.125rem !important;
+        font-size: var(--font-size-1) !important;
         line-height: 1.7 !important;
         letter-spacing: 0.025rem !important;
         padding-inline-start: 23px !important;
@@ -74,7 +74,7 @@
     .notion-numbered-list{
         width: 80% !important;
         margin: 0 auto !important;
-        font-size: 1.125rem !important;
+        font-size: var(--font-size-1) !important;
         line-height: 1.7 !important;
         letter-spacing: 0.025rem !important;
         padding-inline-start: 23px !important;
