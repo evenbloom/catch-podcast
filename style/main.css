@@ -4,7 +4,7 @@
   --color-border-default: hsl(0deg 0% 43% / 20%) !important;
   --color-box-shadow: rgba(0,0,0,.05) 0 10px 20px 0!important;
   --color-bg-transparent-default: rgb(255, 255, 255, 0) !important;
-  --color-paragarph-default: rgb(193, 193, 193) !important;
+  --color-paragraph-default: rgb(193, 193, 193) !important;
   --color-text-default: hsl(0, 0%, 93%) !important;
   --color-date-default: rgb(152, 144, 144) !important;
   --color-link-default: rgb(208, 106, 78) !important;
@@ -22,7 +22,7 @@
   --color-border-default: hsla(0, 0%, 62%, 0.3) !important;
   --color-box-shadow: rgba(30,88,255,.05) 0 10px 20px 0!important;
   --color-bg-transparent-default: rgb(0, 0, 0, 0) !important;
-  --color-paragarph-default: rgb(85 91 112) !important;
+  --color-paragraph-default: rgb(85 91 112) !important;
   --color-text-default: rgb(32, 32, 32) !important;
   --color-date-default: rgb(178, 178, 178) !important;
   --color-link-default: rgb(149, 75, 54) !important;
@@ -181,7 +181,7 @@ h3.notion-heading {
 
 p, p.notion-text__content {
   font-size: var(--font-size-1) !important;
-  color: var(--color-paragarph-default) !important;
+  color: var(--color-paragraph-default) !important;
   letter-spacing: 0.025rem !important;
 }
 
