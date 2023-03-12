@@ -66,6 +66,11 @@
         margin: 0 auto;
     }
 
+    .notion-numbered-list{
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+
     .notion-code pre{
         width: 80% !important;
         margin: 0 auto !important;
@@ -114,6 +119,10 @@
 
         .notion-bulleted-list{
             width: 100% !important;
+        }
+
+        .notion-numbered-list{
+        width: 100% !important;
         }
 
         .notion-code pre{

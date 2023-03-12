@@ -452,6 +452,10 @@ p, p.notion-text__content {
   width: 80% !important;
   margin: 0 auto;
 }
+.parent-page__index .notion-numbered-list {
+  width: 80% !important;
+  margin: 0 auto !important;
+}
 .parent-page__index .notion-code pre {
   width: 80% !important;
   margin: 0 auto !important;
@@ -490,6 +494,9 @@ p, p.notion-text__content {
     width: 100% !important;
   }
   .parent-page__index .notion-bulleted-list {
+    width: 100% !important;
+  }
+  .parent-page__index .notion-numbered-list {
     width: 100% !important;
   }
   .parent-page__index .notion-code pre {
