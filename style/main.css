@@ -451,10 +451,20 @@ p, p.notion-text__content {
 .parent-page__index .notion-bulleted-list {
   width: 80% !important;
   margin: 0 auto;
+  font-size: 1.125rem !important;
+  line-height: 1.7 !important;
+  letter-spacing: 0.025rem !important;
+  padding-inline-start: 23px !important;
+  color: var(--color-paragraph-default) !important;
 }
 .parent-page__index .notion-numbered-list {
   width: 80% !important;
   margin: 0 auto !important;
+  font-size: 1.125rem !important;
+  line-height: 1.7 !important;
+  letter-spacing: 0.025rem !important;
+  padding-inline-start: 23px !important;
+  color: var(--color-paragraph-default) !important;
 }
 .parent-page__index .notion-code pre {
   width: 80% !important;
