@@ -560,6 +560,15 @@ p, p.notion-text__content {
   line-height: 1 !important;
 }
 
+.notion-collection__header {
+  line-height: 1.25 !important;
+  font-size: var(--font-size-2) !important;
+  opacity: 0.5 !important;
+  letter-spacing: 0.1rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
 .notion-collection__header-wrapper {
   justify-content: center !important;
   margin-top: 3rem !important;
