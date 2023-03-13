@@ -436,7 +436,7 @@ p, p.notion-text__content {
   background: var(--color-hover-default) !important;
 }
 
-.parent-page__index .notion-property .notion-property__select {
+.parent-page__index .notion-collection-table__cell.select {
   display: none !important;
 }
 .parent-page__index .notion-text {
