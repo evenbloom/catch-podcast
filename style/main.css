@@ -587,6 +587,10 @@ thead.notion-collection-table__head {
   display: none !important;
 }
 
+.notion-collection-table__cell.select {
+  display: none !important;
+}
+
 tbody.notion-collection-table__body {
   display: flex !important;
   justify-content: center !important;
