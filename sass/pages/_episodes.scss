@@ -46,6 +46,10 @@
 
 .parent-page__index {
 
+    .notion-property .notion-property__select{
+        display: none !important;
+    }
+
     .notion-text{
         width: 80% !important;
         margin: 0 auto !important;
