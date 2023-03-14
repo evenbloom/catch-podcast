@@ -528,6 +528,9 @@ p, p.notion-text__content {
   .parent-page__index .notion-code pre {
     width: 100% !important;
   }
+  .parent-page__index .notion-divider {
+    width: 100% !important;
+  }
   .parent-page__index .notion-collection-table__wrapper {
     width: 100% !important;
   }
