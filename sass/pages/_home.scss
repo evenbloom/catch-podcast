@@ -562,12 +562,6 @@ html ::-webkit-scrollbar-thumb {
     grid-template-columns: 1fr 1fr 1fr !important;
     gap:3rem !important;
 
-    .notion-collection-table tr:hover{
-        box-shadow: var(--color-box-shadow) !important;
-        border: 1px solid transparent !important;
-        transform: translateY(-2px) !important;
-    }
-
     .notion-property.notion-property__file a div{
         width: 45px !important;
         height: 45px !important;
@@ -579,7 +573,13 @@ html ::-webkit-scrollbar-thumb {
         margin-top: 0.5rem !important;
 
     }
-  } 
+  }
+  
+  .notion-collection-table tr:hover{
+        box-shadow: var(--color-box-shadow) !important;
+        border: 1px solid transparent !important;
+        transform: translateY(-2px) !important;
+    }
 }
 
 
