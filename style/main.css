@@ -441,7 +441,7 @@ p, p.notion-text__content {
   margin: 0 auto !important;
 }
 .parent-page__index .notion-divider {
-  width: 80 !important;
+  width: 80% !important;
   margin: 0 auto !important;
 }
 .parent-page__index .notion-collection-table__cell.select {
