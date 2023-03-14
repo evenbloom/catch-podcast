@@ -40,6 +40,8 @@
     letter-spacing: .1rem !important;
     margin-top: 1rem !important;
     margin-bottom: 1.5rem !important;
+    text-transform: uppercase !important;
+    color: var(--color-paragraph-default) !important;
 
 }
 
@@ -49,9 +51,6 @@
     margin-bottom: 2rem !important;
 }
 
-.notion-collection__header{
-    text-transform: uppercase !important;
-}
 
 //table
 
