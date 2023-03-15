@@ -9,7 +9,9 @@
     max-height: 60vh !important;
     z-index: -2 !important;
     opacity: .5 !important;
+    -webkit-mask-image: var(--color-mask-default) !important;
     mask-image: var(--color-mask-default) !important;
+    
 }
 
 .notion-header__cover.no-cover {

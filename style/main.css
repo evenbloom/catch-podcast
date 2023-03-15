@@ -243,6 +243,7 @@ p, p.notion-text__content {
   max-height: 60vh !important;
   z-index: -2 !important;
   opacity: 0.5 !important;
+  -webkit-mask-image: var(--color-mask-default) !important;
   mask-image: var(--color-mask-default) !important;
 }
 
