@@ -1074,6 +1074,10 @@ html ::-webkit-scrollbar-thumb {
   font-size: 1.5rem !important;
   margin-top: 0.5rem !important;
 }
+.notion-callout.bg-green-light .notion-collection-table tr {
+  -webkit-transition: all 0.4s !important;
+  transition: all 0.4s !important;
+}
 .notion-callout.bg-green-light .notion-collection-table tr:hover {
   box-shadow: var(--color-box-shadow) !important;
   border: 1px solid transparent !important;

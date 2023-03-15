@@ -574,7 +574,10 @@ html ::-webkit-scrollbar-thumb {
 
     }
   }
-  
+  .notion-collection-table tr{
+    -webkit-transition: all 0.4s !important;
+    transition: all 0.4s !important;
+  }
   .notion-collection-table tr:hover{
         box-shadow: var(--color-box-shadow) !important;
         border: 1px solid transparent !important;
