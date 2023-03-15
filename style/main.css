@@ -1038,7 +1038,7 @@ html ::-webkit-scrollbar-thumb {
 }
 
 .notion-image.normal img {
-  border-radius: 10px !important;
+  border-radius: 0.3rem !important;
 }
 
 .notion-image.page-width img {
