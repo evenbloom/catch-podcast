@@ -140,7 +140,6 @@
 }
 
 
-
 @media (max-width: 546px){
     .super-navbar{
         width: calc(100% - 40px) !important;
@@ -149,4 +148,15 @@
         display: flex !important;
     }
 
+}
+
+@media (max-width:860px){
+    .super-navbar__menu-wrapper .super-navbar__item{
+        font-weight: 700 !important;
+        border-bottom: 1px solid var(--color-border-default) !important;
+    }
+    .super-navbar__menu-wrapper .super-navbar__item:last-child{
+        font-weight: 700 !important;
+        border-bottom: none !important;
+    }
 }

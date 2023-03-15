@@ -400,6 +400,16 @@ p, p.notion-text__content {
     display: flex !important;
   }
 }
+@media (max-width: 860px) {
+  .super-navbar__menu-wrapper .super-navbar__item {
+    font-weight: 700 !important;
+    border-bottom: 1px solid var(--color-border-default) !important;
+  }
+  .super-navbar__menu-wrapper .super-navbar__item:last-child {
+    font-weight: 700 !important;
+    border-bottom: none !important;
+  }
+}
 .notion-toggle {
   border: 1px solid var(--color-border-default) !important;
   border-radius: 5px !important;
