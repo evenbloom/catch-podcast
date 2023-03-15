@@ -1,5 +1,5 @@
 //colors
-.theme-blackout body{
+.theme-dark body{
     --color-bg-default: rgb(32, 32, 32) !important;
     --color-mask-default: linear-gradient(#20202000, rgba(32, 32, 32, 0)) !important;
     --color-bg-blur-default: rgba(32, 32, 32,0.5) !important;
@@ -19,7 +19,7 @@
     --scrollbar-thumb-color: rgba(110, 110, 110, 0.1) !important;
 }
 
-.theme-default body{
+.theme-light body{
     --color-bg-default: rgb(237, 237, 237) !important;
     --color-mask-default: linear-gradient(#fff, rgba(257,257,257,0)) !important;
     --color-bg-blur-default: rgba(237, 237, 237,0.5) !important;
