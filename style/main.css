@@ -727,8 +727,7 @@ tbody.notion-collection-table__body {
 }
 
 .notion-collection-card:hover {
-  /* background: var(--color-bg-hover-default) !important; */
-  background: pink !important;
+  background: var(--color-bg-hover-default) !important;
 }
 
 .notion-collection-card:hover .notion-collection-card__cover img {
