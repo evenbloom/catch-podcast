@@ -1,6 +1,6 @@
 .theme-dark body {
   --color-bg-default: rgb(32, 32, 32) !important;
-  --color-mask-default: linear-gradient(#20202000, rgba(32, 32, 32, 0)) !important;
+  --color-mask-default: linear-gradient(#000, rgba(32, 32, 32, 0)) !important;
   --color-bg-blur-default: rgba(32, 32, 32,0.5) !important;
   --theme-gradient: linear-gradient(to bottom, rgba(32, 32, 32, 0), rgba(32, 32, 32, 1) 98%) !important;
   --color-border-default: hsl(0deg 0% 43% / 20%) !important;
