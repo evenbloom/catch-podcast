@@ -309,7 +309,6 @@ p, p.notion-text__content {
   cursor: pointer !important;
   align-items: center !important;
   justify-content: center !important;
-  display: none !important;
   opacity: 0.5 !important;
   transition: opacity 0.3s ease-in-out !important;
 }

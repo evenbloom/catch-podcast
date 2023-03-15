@@ -48,7 +48,6 @@
     cursor: pointer !important;
     align-items: center !important;
     justify-content: center !important;
-    display: none !important;
     opacity: 0.5 !important;
     transition: opacity .3s ease-in-out !important;
 }
@@ -79,7 +78,7 @@
     background: var(--color-bg-blur-default) !important;
     backdrop-filter: blur(30px) !important;
   }
-  
+
   .super-navbar__menu-close{
     align-items: flex-start !important;
   }
