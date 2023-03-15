@@ -503,9 +503,9 @@ p, p.notion-text__content {
   left: 0 !important;
 }
 .parent-page__index .notion-callout.bg-gray-light .notion-callout__content {
-  max-width: 90% !important;
+  max-width: 100% !important;
   margin: 20px auto !important;
-  width: 90% !important;
+  width: 100% !important;
 }
 .parent-page__index .notion-collection-table__wrapper {
   width: 80% !important;
