@@ -1174,4 +1174,7 @@ html ::-webkit-scrollbar-thumb {
     display: grid !important;
     grid-template-columns: 1fr !important;
   }
+  .notion-callout.bg-orange-light .notion-callout__content .notion-image {
+    max-width: 200px !important;
+  }
 }/*# sourceMappingURL=main.css.map */

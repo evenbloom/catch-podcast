@@ -754,6 +754,10 @@ html ::-webkit-scrollbar-thumb {
         }
     }
 
+    .notion-callout.bg-orange-light .notion-callout__content .notion-image{
+        max-width: 200px !important;
+    }
+
 }
     
 
