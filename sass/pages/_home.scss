@@ -647,6 +647,10 @@ html ::-webkit-scrollbar-thumb {
     display: none;
 }
 
+//password protected
+.super-password-protection{
+    background: var(--color-callout-background) !important;
+}
 
 @media (max-width: 546px){
     h1.notion-heading{
