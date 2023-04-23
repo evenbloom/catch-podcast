@@ -639,11 +639,6 @@ tbody.notion-collection-table__body {
   font-weight: 500 !important;
 }
 
-.notion-collection-table td:last-child, .notion-collection-table th:last-child {
-  /*     position: absolute !important;
-      padding: 10px 15px !important; */
-}
-
 td.notion-collection-table__cell.status {
   position: absolute !important;
   padding: 10px 15px !important;
@@ -1053,6 +1048,10 @@ html ::-webkit-scrollbar-thumb {
   box-shadow: var(--color-box-shadow) !important;
   border: 1px solid transparent !important;
   transform: translateY(-2px) !important;
+}
+
+.gumroad .cart-button {
+  display: none !important;
 }
 
 @media (max-width: 680px) {
