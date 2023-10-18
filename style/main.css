@@ -623,7 +623,8 @@ tbody.notion-collection-table__body {
   letter-spacing: 0.025rem !important;
 }
 
-.notion-collection-table td:first-of-type, .notion-collection-table th:first-of-type {
+.notion-collection-table td:first-of-type,
+.notion-collection-table th:first-of-type {
   display: inline !important;
 }
 
@@ -700,6 +701,10 @@ td.notion-collection-table__cell.status {
   transform: scale(1.08) rotate(0.01deg) !important;
   -webkit-transition: all 0.4s !important;
   transition: all 0.4s !important;
+}
+
+.notion-property__file a {
+  width: 100% !important;
 }
 
 .notion-collection-card__cover {
@@ -798,7 +803,8 @@ td.notion-collection-table__cell.status {
   opacity: 1 !important;
 }
 
-.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
+.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link,
+.notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
   color: var(--color-text-default) !important;
   background: var(--color-callout-background) !important;
   padding: 0.8rem 1.6rem !important;
@@ -816,7 +822,8 @@ td.notion-collection-table__cell.status {
   transition: background 0.2s ease-in-out !important;
 }
 
-.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link:hover, .notion-root .notion-text .notion-text__content .notion-semantic-string span .notion-link strong:hover {
+.notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link:hover,
+.notion-root .notion-text .notion-text__content .notion-semantic-string span .notion-link strong:hover {
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   transition: 0.2s ease-in-out !important;
@@ -1156,7 +1163,8 @@ html ::-webkit-scrollbar-thumb {
   .notion-collection-gallery.medium {
     grid-template-columns: 1fr !important;
   }
-  .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
+  .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link,
+  .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
     font-size: var(--font-size-0) !important;
   }
   .notion-callout.bg-green-light .notion-collection-table__body {
