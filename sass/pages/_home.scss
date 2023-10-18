@@ -149,6 +149,11 @@ td.notion-collection-table__cell.status {
   }
 }
 
+.notion-property__file a{
+  width: 100% !important;
+}
+
+
 .notion-pill {
   background: var(--color-link-default) !important;
   color: var(--color-cta-text) !important;
