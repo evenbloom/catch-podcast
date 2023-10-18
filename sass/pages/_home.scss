@@ -191,9 +191,7 @@ td.notion-collection-table__cell.status {
   transition: all 0.4s !important;
 }
 
-.notion-property__file a {
-  width: 100% !important;
-}
+  
 
 .notion-collection-card__cover {
   border-radius: 10px !important;
@@ -652,6 +650,12 @@ html ::-webkit-scrollbar-thumb {
 
   .notion-collection-gallery {
     gap: 2rem !important;
+  }
+}
+
+@media (max-width: 863px) {
+  .notion-collection-gallery.small {
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
 
