@@ -2,14 +2,18 @@
 .super-navbar{
     width: calc(100% - 193px) !important;
     max-width: calc(1680px - 200px) !important;
-    height: 65px !important;
-    margin: 20px auto !important;
+    /* height: 65px !important; */
+    height: auto !important;
+    /* margin: 20px auto !important; */
+    margin: 0 auto !important;
+    padding-top: 15px !important;
     padding: 0px 0px !important;
     transition: box-shadow .2s ease-in-out !important;
     background: var(--color-bg-transparent-default) !important;
     color: var(--color-text-default) !important;
 }
 .super-navbar__content{
+    background: transparent !important;
     padding-left: 0px !important;
 }
 
