@@ -296,6 +296,11 @@ td.notion-collection-table__cell.status {
 }
 
 //v3.1
+
+.notion-collection-gallery {
+  border-top: none !important;
+}
+
 .notion-collection-card picture {
   border-radius: 10px !important;
   flex: 0 33% !important;

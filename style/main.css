@@ -803,6 +803,10 @@ td.notion-collection-table__cell.status {
   font-size: 1rem !important;
 }
 
+.notion-collection-gallery {
+  border-top: none !important;
+}
+
 .notion-collection-card picture {
   border-radius: 10px !important;
   flex: 0 33% !important;
